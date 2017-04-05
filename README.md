@@ -1,10 +1,11 @@
 # ACH3778_Governo_Aberto
 
-##Aula 1 (Data:8/3)
+<h2> ##Aula 1 (Data:8/3)</h2>
 Movimento do Aberto (FLOSS, Open Access, Open Data, Open Government)
 Princípio de um governo aberto
 
 ###REFERÊNCIAS UTILIZADAS NA AULA 1
+
 ####Sobre FLOSS:
 STALMANN, R. O que é o software livre.
 http://www.fsfla.org/svnwiki/about/what-is-free-software.pt.html
