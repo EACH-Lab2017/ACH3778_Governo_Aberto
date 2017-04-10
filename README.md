@@ -83,3 +83,5 @@ https://newtoncalegari.com.br/CALEGARI-2016-mestrado.pdf
 <h2> Equipes e temas de projeto </h2>
 Equipe 1: Kaio Henrique, Daniel Carvalho +3 (Projeto 9)
 
+Equipe 2: Pedro Beraldo, Renan Rogério Boni +3 (Projeto 1)
+
