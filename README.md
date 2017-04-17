@@ -85,3 +85,5 @@ Equipe 1: Kaio Henrique, Daniel Carvalho +3 (Projeto 9)
 
 Equipe 2: Pedro Beraldo, Renan Rogério Boni +3 (Projeto 1)
 
+Equipe 3:: Camila Faria de Castro, Higor Lima Neves, Leandro Rodrigues, Lucas Correia Silva e Lucas Marçal (Projeto 10)
+
