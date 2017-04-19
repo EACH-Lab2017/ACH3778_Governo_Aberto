@@ -1,5 +1,22 @@
 # ACH3778_Governo_Aberto
 
+<h2> Equipes e temas de projeto </h2>
+Equipe 1: Kaio Henrique, Daniel Carvalho +3 (Projeto 9)
+
+Equipe 2: Pedro Beraldo, Renan Rogério Boni, Lucas Borelli Amaral, Priscila Lira Ferreira +1 (Projeto 1)
+
+Equipe 3: Camila Faria de Castro, Higor Lima Neves, Leandro Rodrigues, Lucas Correia Silva e Lucas Marçal (Projeto 10)
+
+Equipe 4: Leonardo Piccioni de Almeida, Marcos Vinicius de Aquino Giurni, Rafael Ribeiro Motta Ferreira + 2 (Projeto 2)
+
+Equipe 5: Alexsander Yokoyama, Leandro Lessa, Matheus Pinheiro, Matheus Silva ,Thiago Bastos (Projeto 12)
+
+Equipe 6: Keven Aderson, Felipe Erich Appel Romero, Rafael Condez Gosson Pavarini + 2 (Projeto 5)
+
+Equipe 7: Rafael Henrique Amado, Vinicius Paes Pó, Dirceu Neto, Felipe Nunes +1 (Projeto 6)
+
+Equipe 8: Waldir Merotti, Rafael Bombardelli Weiser, Matheus Ribeiro, Matheus Pereira de Almeida +1 (Projeto 8)
+
 <h2> Aula 1 (Data:8/3)</h2>
 Movimento do Aberto (FLOSS, Open Access, Open Data, Open Government)
 Princípio de um governo aberto
@@ -80,19 +97,4 @@ https://www.w3.org/TR/dwbp-ucr/
 Dissertação: Proposta de uma ferramenta de anotação semântica para publicação de dados estruturados na Web
 https://newtoncalegari.com.br/CALEGARI-2016-mestrado.pdf 
 
-<h2> Equipes e temas de projeto </h2>
-Equipe 1: Kaio Henrique, Daniel Carvalho +3 (Projeto 9)
 
-Equipe 2: Pedro Beraldo, Renan Rogério Boni, Lucas Borelli Amaral, Priscila Lira Ferreira +1 (Projeto 1)
-
-Equipe 3: Camila Faria de Castro, Higor Lima Neves, Leandro Rodrigues, Lucas Correia Silva e Lucas Marçal (Projeto 10)
-
-Equipe 4: Leonardo Piccioni de Almeida, Marcos Vinicius de Aquino Giurni, Rafael Ribeiro Motta Ferreira + 2 (Projeto 2)
-
-Equipe 5: Alexsander Yokoyama, Leandro Lessa, Matheus Pinheiro, Matheus Silva ,Thiago Bastos (Projeto 12)
-
-Equipe 6: Keven Aderson, Felipe Erich Appel Romero, Rafael Condez Gosson Pavarini + 2 (Projeto 5)
-
-Equipe 7: Rafael Henrique Amado, Vinicius Paes Pó, Dirceu Neto, Felipe Nunes +1 (Projeto 6)
-
-Equipe 8: Waldir Merotti, Rafael Bombardelli Weiser, Matheus Ribeiro, Matheus Pereira de Almeida +1 (Projeto 8)
