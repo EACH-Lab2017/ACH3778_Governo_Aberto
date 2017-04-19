@@ -17,6 +17,8 @@ Equipe 7: Rafael Henrique Amado, Vinicius Paes Pó, Dirceu Neto, Felipe Nunes +1
 
 Equipe 8: Waldir Merotti, Rafael Bombardelli Weiser, Matheus Ribeiro, Matheus Pereira de Almeida +1 (Projeto 8)
 
+Equipe 9: Fabiano Figueira Fernandes Sampaio, Marcello Malagoli Ziravello, Mariana Soares Viana, Raphael Takashi Miyaguni Franciscatte, Suzylaine da Silva Lima (Projeto 15)
+
 <h2> Aula 1 (Data:8/3)</h2>
 Movimento do Aberto (FLOSS, Open Access, Open Data, Open Government)
 Princípio de um governo aberto
