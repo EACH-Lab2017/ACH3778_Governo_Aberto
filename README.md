@@ -91,3 +91,4 @@ Equipe 4: Leonardo Piccioni de Almeida, Marcos Vinicius de Aquino Giurni, Rafael
 
 Equipe 5: Alexsander Yokoyama, Leandro Lessa, Matheus Pinheiro, Matheus Silva ,Thiago Bastos (Projeto 12)
 
+Equipe 6: Keven Aderson, Felipe Erich Appel Romero, Rafael Condez Gosson Pavarini + 2 (Projeto 5)
