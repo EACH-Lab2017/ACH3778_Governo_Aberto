@@ -83,7 +83,11 @@ https://newtoncalegari.com.br/CALEGARI-2016-mestrado.pdf
 <h2> Equipes e temas de projeto </h2>
 Equipe 1: Kaio Henrique, Daniel Carvalho +3 (Projeto 9)
 
-Equipe 2: Pedro Beraldo, Renan Rogério Boni +3 (Projeto 1)
+Equipe 2: Pedro Beraldo, Renan Rogério Boni, Lucas Borelli Amaral, Priscila Lira Ferreira +1 (Projeto 1)
 
-Equipe 3:: Camila Faria de Castro, Higor Lima Neves, Leandro Rodrigues, Lucas Correia Silva e Lucas Marçal (Projeto 10)
+Equipe 3: Camila Faria de Castro, Higor Lima Neves, Leandro Rodrigues, Lucas Correia Silva e Lucas Marçal (Projeto 10)
+
+Equipe 4: Leonardo Piccioni de Almeida, Marcos Vinicius de Aquino Giurni, Rafael Ribeiro Motta Ferreira + 2 (Projeto 2)
+
+Equipe 5: Alexsander Yokoyama, Leandro Lessa, Matheus Pinheiro, Matheus Silva ,Thiago Bastos (Projeto 12)
 
