@@ -94,3 +94,5 @@ Equipe 5: Alexsander Yokoyama, Leandro Lessa, Matheus Pinheiro, Matheus Silva ,T
 Equipe 6: Keven Aderson, Felipe Erich Appel Romero, Rafael Condez Gosson Pavarini + 2 (Projeto 5)
 
 Equipe 7: Rafael Henrique Amado, Vinicius Paes Pó, Dirceu Neto, Felipe Nunes +1 (Projeto 6)
+
+Equipe 8: Waldir Merotti, Rafael Bombardelli Weiser, Matheus Ribeiro, Matheus Pereira de Almeida +1 (Projeto 8)
