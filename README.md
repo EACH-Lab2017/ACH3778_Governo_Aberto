@@ -3,7 +3,7 @@
 <h2> Equipes e temas de projeto </h2>
 Equipe 1: Kaio Henrique, Daniel Carvalho +3 (Projeto 9)
 
-Equipe 2: Pedro Beraldo, Renan Rogério Boni, Lucas Borelli Amaral, Priscila Lira Ferreira +1 (Projeto 1)
+Equipe 2: Pedro Beraldo, Renan Rogério Boni, Lucas Borelli Amaral, Priscila Lira Ferreira +1 (Projeto 13)
 
 Equipe 3: Camila Faria de Castro, Higor Lima Neves, Leandro Rodrigues, Lucas Correia Silva e Lucas Marçal (Projeto 10)
 
