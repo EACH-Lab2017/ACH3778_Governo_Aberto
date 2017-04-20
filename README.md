@@ -19,6 +19,8 @@ Equipe 8: Waldir Merotti, Rafael Bombardelli Weiser, Matheus Ribeiro, Matheus Pe
 
 Equipe 9: Fabiano Figueira Fernandes Sampaio, Marcello Malagoli Ziravello, Mariana Soares Viana, Raphael Takashi Miyaguni Franciscatte, Suzylaine da Silva Lima (Projeto 15)
 
+Equipe 10: Thiago Bonfiglio, Rodrigo Kuba, Gerson Revoredo (Projeto 3)
+
 <h2> Aula 1 (Data:8/3)</h2>
 Movimento do Aberto (FLOSS, Open Access, Open Data, Open Government)
 Princípio de um governo aberto
