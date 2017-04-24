@@ -21,6 +21,8 @@ Equipe 9: Fabiano Figueira Fernandes Sampaio, Marcello Malagoli Ziravello, Maria
 
 Equipe 10: Thiago Bonfiglio, Rodrigo Kuba, Gerson Revoredo (Projeto 3)
 
+Equipe 11: Camila Izidio Costa, Vanessa Nigro Paro, Rodrigo Guerra , Priscila Coura Leme e Douglas Fernando Raymundo (Projeto 11)
+
 <h2> Aula 1 (Data:8/3)</h2>
 Movimento do Aberto (FLOSS, Open Access, Open Data, Open Government)
 Princípio de um governo aberto
