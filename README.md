@@ -11,7 +11,7 @@ Equipe 4: Leonardo Piccioni de Almeida, Marcos Vinicius de Aquino Giurni, Rafael
 
 Equipe 5: Alexsander Yokoyama, Leandro Lessa, Matheus Pinheiro, Matheus Silva ,Thiago Bastos (Projeto 12)
 
-Equipe 6: Keven Aderson, Felipe Erich Appel Romero, Rafael Condez Gosson Pavarini + 2 (Projeto 5)
+Equipe 6: Keven Aderson, Felipe Erich Appel Romero, Rafael Condez Gosson Pavarini, Antonio Coelho , Gisely Alves (Projeto 5)
 
 Equipe 7: Rafael Henrique Amado, Vinicius Paes Pó, Dirceu Neto, Felipe Nunes, Lais Freire de Oliveira (Projeto 6)
 
@@ -22,6 +22,10 @@ Equipe 9: Fabiano Figueira Fernandes Sampaio, Marcello Malagoli Ziravello, Maria
 Equipe 10: Thiago Bonfiglio, Rodrigo Kuba, Gerson Revoredo (Projeto 3)
 
 Equipe 11: Camila Izidio Costa, Vanessa Nigro Paro, Rodrigo Guerra , Priscila Coura Leme e Douglas Fernando Raymundo (Projeto 11)
+
+Equipe 12: Daniel Fortunato Rezina, Douglas Andrade, Guilherme Mandri, Jéssica de Abreu Marcon, Juan Silva Nogueira(Projeto 4)
+
+Equipe 13: Clayton dos Santos Lima, Gabriel Henrique de Oliveira, Giovane Gabrielli, Gleidson Fernandes de Souza(Projeto 16)
 
 <h2> Aula 1 (Data:8/3)</h2>
 Movimento do Aberto (FLOSS, Open Access, Open Data, Open Government)
