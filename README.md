@@ -19,7 +19,7 @@ Equipe 8: Waldir Merotti, Rafael Bombardelli Weiser, Matheus Ribeiro, Matheus Pe
 
 Equipe 9: Fabiano Figueira Fernandes Sampaio, Marcello Malagoli Ziravello, Mariana Soares Viana, Raphael Takashi Miyaguni Franciscatte, Suzylaine da Silva Lima (Projeto 15)
 
-Equipe 10: Thiago Bonfiglio, Rodrigo Kuba, Gerson Revoredo (Projeto 3)
+Equipe 10: Thiago Bonfiglio, Rodrigo Kuba, Gerson Revoredo, Marco Modena Centeno (Projeto 3)
 
 Equipe 11: Camila Izidio Costa, Vanessa Nigro Paro, Rodrigo Guerra , Priscila Coura Leme e Douglas Fernando Raymundo (Projeto 11)
 
