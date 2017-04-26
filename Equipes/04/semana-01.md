@@ -2,7 +2,7 @@
 
 Semana 01: 20 a 26 de abril de 2017.
 
-## Componentes do grupo 02
+## Componentes do grupo 04
 
 * Leonardo Piccioni de Almeida - 8516094
 * Marcos Vinicius de Aquino Giurni - 8516080
