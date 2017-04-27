@@ -27,6 +27,8 @@ Equipe 12: Daniel Fortunato Rezina, Douglas Andrade, Guilherme Mandri, Jéssica 
 
 Equipe 13: Clayton dos Santos Lima, Gabriel Henrique de Oliveira, Giovane Gabrielli, Gleidson Fernandes de Souza(Projeto 16)
 
+Equipe 14: Filipe Filardi de Jesus, Renan de Souza Ferreira + 3 (Projeto 17)
+
 <h2> Aula 1 (Data:8/3)</h2>
 Movimento do Aberto (FLOSS, Open Access, Open Data, Open Government)
 Princípio de um governo aberto
