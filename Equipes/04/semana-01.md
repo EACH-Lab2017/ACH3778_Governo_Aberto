@@ -15,6 +15,7 @@ Semana 01: 20 a 26 de abril de 2017.
 
 Sites sobre licitação da prefeitura de São Paulo (SP):
 * [e-Negócios](http://e-negocioscidadesp.prefeitura.sp.gov.br/)
+* [Pregão](http://www.pregao.sp.gov.br/)
 * Seção sobre licitações do [Portal da Transparência](http://www.transparencia.sp.gov.br/licita.html)
 
 Outros sites de licitação que a prefeitura pode potencialmente utilizar:
