@@ -109,4 +109,35 @@ https://www.w3.org/TR/dwbp-ucr/
 Dissertação: Proposta de uma ferramenta de anotação semântica para publicação de dados estruturados na Web
 https://newtoncalegari.com.br/CALEGARI-2016-mestrado.pdf 
 
+<h2> Aula 5 </h2>
+
+1. Lei Complementar n∘ 101, Brasil (2000), http://www.planalto.gov.br/ccivil_03/Leis/LCP/Lcp131.htm
+
+2.Open Government Data Principles (2007), http://www.opengovdata.org/home/8principles
+
+3.Lei Complementar n∘ 131, Brasil (2009), http://www.planalto.gov.br/ccivil_03/Leis/LCP/Lcp131.htm
+
+4.Zemanta service (2009), http://developer.zemanta.com/media/files/docs/zemanta_api_companion.pdf
+
+5.Ontos Semantic Technologies (2010), http://www.ontos.com
+
+6.TextWise (2010), http://www.textwise.com
+
+7.LEXML: Controlled Vocabularies (2011), http://projeto.lexml.gov.br/documentacao
+
+8.Brandão, S.N., da Silva, T.S., Rodrigues, S., Araujo, L., Silva, D., de Souza, J.M.: Siop-legis: Thesaurus for selection and management of brazilian treasury domain. In: KMIS, pp. 195–200 (2011)
+
+9.Craveiro, G.S.: Where does the money go? The challenge of transparency in state spending. Global Information Society Watch 2012 - The Internet and Corruption (2012)
+
+10.Craveiro, G.S., Santana, M.T., Albuquerque, J.P.: Assessing Open Government Budgetary Data in Brazil. In: ICDS 2013, The Seventh International Conference on Digital Society, pp. 20–27 (2013)
+
+11.Popov, B., Kiryakov, A., Kirilov, A., Manov, D., Ognyanoff, D., Goranov, M.: Kim–Semantic annotation platform. In: Fensel, D., Sycara, K., Mylopoulos, J. (eds.) ISWC 2003. LNCS, vol. 2870, pp. 834–849. Springer, Heidelberg (2003)
+CrossRefGoogle Scholar
+
+12.Thomas, R.: OpenCalais Documentation (2010), http://www.opencalais.com/documentation/opencalais-documentation
+
+13.The 8 Principles of Open Government Data (2007), http://opengovdata.org
+
+14.Walker, S.T.: Budget mapping: Increasing citizen understanding of government via interactive design. In: 2014 47th Hawaii International Conference on System Sciences, pp. 1–9 (2010)
+
 
