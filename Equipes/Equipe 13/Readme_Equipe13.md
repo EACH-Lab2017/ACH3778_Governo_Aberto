@@ -4,8 +4,11 @@ Projeto 16 - Diário Livre
 Integrantes:
 
 Clayton dos Santos Lima           Número USP: 8517140
+
 Gabriel Henrique de Oliveira      Número USP: 8517202
+
 Giovane Gabrielli                 Número USP: 8516420
+
 Gleidson Fernandes de Souza       Número USP: 8657647
 
 Ideia do Projeto:
