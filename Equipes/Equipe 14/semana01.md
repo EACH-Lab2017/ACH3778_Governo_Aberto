@@ -9,7 +9,7 @@ Semana 01
 
 ## Descrição das atividades
 
-### Aperfeiçoamento da ferramenta [Cuidando do Meu Bairro] (https://cuidando.vc/)
+### Aperfeiçoamento da ferramenta [Cuidando do Meu Bairro](https://cuidando.vc/)
 
 Atividades realizadas:
 * Mentoria com desenvolvedores da plataforma;
