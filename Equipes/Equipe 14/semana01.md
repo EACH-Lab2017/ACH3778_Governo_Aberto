@@ -18,8 +18,8 @@ Atividades realizadas:
 
 * Conhecimento da plataforma:
    * A partir de uma visão geral da plataforma, no seu primeiro contato foi possível entender um pouco melhor sua forma de funcionamento;
-   *O site é composto pelo cliente em javascript e o backend por vários componentes que são microserviços. Esses microserviços alimentam, tanto o back-end, a base de dados, quanto enviam informações ao front-end para a visualização do usuario;
-   *Conforme o estudo prévio e informações passadas através da mentoria, foi indentificado que será necessário a modificação tanto do back-end E-SIC Livre quanto do cliente javascript.
+   * O site é composto pelo cliente em javascript e o backend por vários componentes que são microserviços. Esses microserviços alimentam, tanto o back-end, a base de dados, quanto enviam informações ao front-end para a visualização do usuario;
+   * Conforme o estudo prévio e informações passadas através da mentoria, foi indentificado que será necessário a modificação tanto do back-end E-SIC Livre quanto do cliente javascript.
 
 
 
