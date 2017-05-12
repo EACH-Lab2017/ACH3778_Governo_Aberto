@@ -1,0 +1,17 @@
+* Projeto 06
+
+Semana 02:
+
+* Membros da equipe 7
+
+	Dirceu da Silva Neto 	nº 7972108
+	Felipe da Silva Nunes   nº 7971514
+	Lais Freire de Oliveira nº 7556455
+	Rafael Henrique Amado 	nº 8922409
+	Vinicius Paes Pó 	nº 8921562
+
+* Resumo da semana
+
+	* Realizamos uma reunião com o grupo a Leonilda do Observatório Social do Brasil, onde discutimos a respeito da fragmentação dos dados e a dificuldade em reuni-los. Discutimos também a possibilidade sobre fazer com que o calendário se torne mais colaborativo com a comunidade, permitindo que os próprios usuários cadastrem as audiências públicas.
+	* Por enquanto estamos trabalhando na leitura dos dados da página Diário Livre (http://devcolab.each.usp.br/do/). Estamos realizando a criação do processo que possibilite a leitura dos arquivos JSON a respeito da Agenda da Câmara Municipal, principal órgão legislativo ao nível municipal para a cidade de São Paulo. O processo de leitura por enquanto faz a leitura usando código PHP, realizando os tratamentos necessários a fim de extrair as informações a respeito da Audiências Públicas.
+	* Ainda apresentamos dúvidas, pelo fato dos dados disponibilizados pelo Diário Livre, são a respeito da agenda da Câmara Municipal para os dias anteriores ao dia atual. Por isso a proposta de calendário fica um pouco confusa. 
