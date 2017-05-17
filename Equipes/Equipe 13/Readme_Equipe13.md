@@ -5,6 +5,8 @@ Integrantes:
 
 Clayton dos Santos Lima           Número USP: 8517140
 
+Gabriel Bonassi Zulpo             Númeno USP: 
+
 Gabriel Henrique de Oliveira      Número USP: 8517202
 
 Giovane Gabrielli                 Número USP: 8516420
