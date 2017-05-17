@@ -25,7 +25,7 @@ Equipe 11: Camila Izidio Costa, Vanessa Nigro Paro, Rodrigo Guerra , Priscila Co
 
 Equipe 12: Daniel Fortunato Rezina, Douglas Andrade, Guilherme Mandri, Jéssica de Abreu Marcon, Juan Silva Nogueira(Projeto 4)
 
-Equipe 13: Clayton dos Santos Lima, Gabriel Henrique de Oliveira, Giovane Gabrielli, Gleidson Fernandes de Souza(Projeto 16)
+Equipe 13: Clayton dos Santos Lima, Gabriel Bonassi Zulpo, Gabriel Henrique de Oliveira, Giovane Gabrielli, Gleidson Fernandes de Souza(Projeto 16)
 
 Equipe 14: Filipe Filardi de Jesus, Renan de Souza Ferreira + 3 (Projeto 17)
 
