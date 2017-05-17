@@ -16,7 +16,7 @@ Tópicos de Discussão:
     
     7. Consolidação dos membros do grupo;
  
-To Do's da Segunda Semana:
+To Do's da Terceira Semana:
 
     1. Disponibilizar o trabalho do André Melo sobre o lattes;
     
