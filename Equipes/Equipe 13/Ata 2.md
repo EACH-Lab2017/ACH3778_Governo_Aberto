@@ -1,11 +1,5 @@
 Ata 2 - 26/04/2017
 
-Presentes:
-
-Clayton Lima
-
-Giovane Gabrielli
-
 Tópicos de Discussão:
 
 1. Elaboração formal da ideia central do projeto;

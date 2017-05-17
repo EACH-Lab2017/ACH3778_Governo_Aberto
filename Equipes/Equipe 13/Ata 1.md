@@ -1,16 +1,5 @@
 Ata 1 - 19/04/2017
 
-Presentes:
-
-Clayton Lima
-
-Gabriel Henrique de Oliveira
-
-Giovane Gabrielli
-
-Gleidson Fernandes de Souza
-
-
 Tópicos de Discussão:
 
 1. Apresentação e explicação do projeto Diário Livre em maiores detalhes por Clayton;
