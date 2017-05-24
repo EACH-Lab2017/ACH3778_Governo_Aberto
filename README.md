@@ -7,7 +7,7 @@ Equipe 2: Pedro Beraldo, Renan Rogério Boni, Lucas Borelli Amaral, Priscila Lir
 
 Equipe 3: Camila Faria de Castro, Higor Lima Neves, Leandro Rodrigues, Lucas Correia Silva e Lucas Marçal (Projeto 10)
 
-Equipe 4: Leonardo Piccioni de Almeida, Marcos Vinicius de Aquino Giurni, Rafael Ribeiro Motta Ferreira + 2 (Projeto 2)
+Equipe 4: Leonardo Piccioni de Almeida, Marcos Vinicius de Aquino Giurni, Rafael Ribeiro Motta Ferreira, Roberto de Lucas Mescoloto + 1 (Projeto 2)
 
 Equipe 5: Alexsander Yokoyama, Leandro Lessa, Matheus Pinheiro, Matheus Silva ,Thiago Bastos (Projeto 12)
 
@@ -25,7 +25,7 @@ Equipe 11: Camila Izidio Costa, Vanessa Nigro Paro, Rodrigo Guerra , Priscila Co
 
 Equipe 12: Daniel Fortunato Rezina, Douglas Andrade, Guilherme Mandri, Jéssica de Abreu Marcon, Juan Silva Nogueira(Projeto 4)
 
-Equipe 13: Clayton dos Santos Lima, Gabriel Henrique de Oliveira, Giovane Gabrielli, Gleidson Fernandes de Souza(Projeto 16)
+Equipe 13: Clayton dos Santos Lima, Gabriel Bonassi Zulpo, Gabriel Henrique de Oliveira, Giovane Gabrielli, Gleidson Fernandes de Souza(Projeto 16)
 
 Equipe 14: Filipe Filardi de Jesus, Renan de Souza Ferreira + 3 (Projeto 17)
 
