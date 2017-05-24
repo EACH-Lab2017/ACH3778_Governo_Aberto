@@ -109,7 +109,7 @@ https://www.w3.org/TR/dwbp-ucr/
 Dissertação: Proposta de uma ferramenta de anotação semântica para publicação de dados estruturados na Web
 https://newtoncalegari.com.br/CALEGARI-2016-mestrado.pdf 
 
-<h2> Aula 5 </h2>
+<h2> Aula 5 (26/04) </h2>
 
 1. Lei Complementar n∘ 101, Brasil (2000), http://www.planalto.gov.br/ccivil_03/Leis/LCP/Lcp131.htm
 
@@ -140,4 +140,6 @@ CrossRefGoogle Scholar
 
 14.Walker, S.T.: Budget mapping: Increasing citizen understanding of government via interactive design. In: 2014 47th Hawaii International Conference on System Sciences, pp. 1–9 (2010)
 
+<h2> Aula 7 (10/05) </h2>
 
+Link para Video exibido em sala: https://youtu.be/9kadoOsp2g4?list=PLP3cgNWg2ZqNnMiIzKw6PUfuDwUfs9TJC
