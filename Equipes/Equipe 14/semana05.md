@@ -1,6 +1,6 @@
 # Projeto 17
 
-Semana 04
+Semana 05
 
 ## Componentes da equipe 14
 
@@ -9,14 +9,19 @@ Semana 04
 
 ## Descrição das atividades
 
-### Aperfeiçoamento da ferramenta [Cuidando do Meu Bairro](https://cuidando.vc/)
+### Aperfeiçoamento da ferramenta [Cuidando do Meu Bairro] (https://cuidando.vc/)
 
 Atividades realizadas:
-* Solução do problema com o Captcha utilizando o [Selenium](http://www.seleniumhq.org/) e escolha do browser:
-   * Ainda não conseguimos solucionar o problema. As bibliotecas de reconhecimento de voz que utilizamos não devolveram a sequência correta de letras e números;
-   * Estamos buscando alternativas e outras metologias para o Captcha Solver. A grande restrição para as alternativas é encotrar uma biblioteca que suporta a linguagem portuguesa;
-   * Tentamos usar a plataforma [WIT](https://wit.ai/) para o reconhecimento de voz em Inglês, porém não foi eficiênte.  
+* Reunião com o Andrés:
+   * Solução do problema com o Selenium no Firefox.
+* Reorganização do Desenvolvimento.
+* Microserviço [Cuidando2](https://github.com/okfn-brasil/cuidando2) definido:
+	*Criação da interface para o sistema de recursos.
+	*Testes com Endpoint [Esic-Livre](https://github.com/okfn-brasil/esiclivre);
+	*Desenvolvimento de Solução integrada.
+
 
 ### Pauta estimada para próxima reunião
 
-* Captcha Solver;
+*Resolver problemas no novo sistema de recursos do [Cuidando2](https://github.com/okfn-brasil/cuidando2);
+*Verificar Selenium e [Esic-Livre](https://github.com/okfn-brasil/esiclivre);
