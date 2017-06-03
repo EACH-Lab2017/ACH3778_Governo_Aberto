@@ -16,9 +16,10 @@ Atividades realizadas:
    * Solução do problema com o Selenium no Firefox.
 * Reorganização do Desenvolvimento.
 * Microserviço [Cuidando2](https://github.com/okfn-brasil/cuidando2) definido:
-	*Criação da interface para o sistema de recursos.
-	*Testes com Endpoint [Esic-Livre](https://github.com/okfn-brasil/esiclivre);
-	*Desenvolvimento de Solução integrada.
+   * Criação da interface para o sistema de recursos.
+   * Solução do problema com o Selenium no Firefox.
+   * Testes com Endpoint [Esic-Livre](https://github.com/okfn-brasil/esiclivre);
+   * Desenvolvimento de Solução integrada.
 
 
 ### Pauta estimada para próxima reunião
