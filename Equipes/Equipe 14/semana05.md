@@ -24,5 +24,5 @@ Atividades realizadas:
 
 ### Pauta estimada para próxima reunião
 
-*Resolver problemas no novo sistema de recursos do [Cuidando2](https://github.com/okfn-brasil/cuidando2);
-*Verificar Selenium e [Esic-Livre](https://github.com/okfn-brasil/esiclivre);
+* Resolver problemas no novo sistema de recursos do [Cuidando2](https://github.com/okfn-brasil/cuidando2);
+* Verificar Selenium e [Esic-Livre](https://github.com/okfn-brasil/esiclivre);
