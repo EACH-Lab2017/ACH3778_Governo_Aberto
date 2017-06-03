@@ -20,4 +20,3 @@ Atividades realizadas:
 ### Pauta estimada para próxima reunião
 
 * Captcha Solver;
-
