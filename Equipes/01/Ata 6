@@ -62,6 +62,9 @@ o uso da mesma é muito confuso e não retornou nenhum resultado que poderia ser
 
 ### Análise
 
+Pegamos contratos com valores de contrato menor ou igual à R$1.000.000,00 por se tratar de microempresários, achamos melhor pegar valores
+de contrato nessa faixa de valor.
+
 Por conta da falta de informação, o grupo resolveu focar em buscar os 10 fornecedores que possuem maior quantidade de contratos no período
 de 2014 até 2017, somando os valores dos contratos desses fornecedores e fazendo uma comparação entre os mesmos.
 
