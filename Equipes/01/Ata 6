@@ -1,0 +1,72 @@
+# Projeto 09
+
+Semana 06:
+
+## Componentes da equipe 1
+
+* Daniel Carvalho - 8515923
+* Henrique Bortoletti - 9424083
+* Kaio Henrique Pedroza Silva - 8516559
+* Vinicius Rezende - 9377588
+
+## Resumo da semana
+
+### Solicitação no e-Sic
+
+Em resposta da nossa solicitação, segue a seguinte mensagem:
+
+"Prezado(a) Senhor(a), 
+
+O pedido de informação abaixo foi analisado e teve resposta na data 26/05/2017.
+
+Protocolo: 21973 
+Requerente: Vinicius Marques Rezende 
+Data de Abertura: 16/05/2017 
+Prazo de atendimento: 05/06/2017
+Órgão da solicitação: CGM - Controladoria Geral do Município 
+
+Solicitação do requerente: Bom dia, Nas bases de dados com as informações sobre as despesas publicas há varias informações relevantes,
+porém gostaria também da data de pagamento para cada licitação. É possível incluir essa data ou se ela está disponível em algum outro
+site da Prefeitura? Nas planilhas só estão as datas de publicação e de assinatura. As bases em questão encontram-se no link abaixo:
+http://dados.prefeitura.sp.gov.br/dataset/base-de-compras-e-licitacoes Obrigado. Aguardo resposta! 
+
+Resposta: Prezado requerente, após a análise do seu pedido registrado no e-SIC sob o número de protocolo 21973 e, em cumprimento ao
+Decreto Municipal nº 53.623/2012, que regulamenta a Lei Federal nº 12.527/2011, esclarecemos que a inclusão da data de pagamento para
+cada licitação não é possível na forma como a informação se encontra hoje. Para fundamentar esta resposta, foram feitas pesquisas
+amostrais em três sistemas de publicação utilizados pela Prefeitura Municipal de São Paulo (BEC, ComprasNET e BBLicitações-e) e
+nenhum deles traz essas informações. Também foi verificada a possibilidade de tais informações serem fornecidas pela API-SOF,
+da Secretaria Municipal da Fazenda. Contudo, na API não é possível agregar tais informações de forma automatizada, pois na consulta
+de Contratos não há o filtro pelo número do processo. Ainda, a API chega até a liquidação, não evidenciando os pagamentos.
+Manualmente é possível chegar até as liquidações desde que se faça consultas de informações específicas na base de contratos da API,
+a partir dos dados contidos na planilha. Ao se achar o contrato, seria possível encontrar as liquidações realizadas.
+Segue um exemplo: (a) pegar o 1º registro da planilha de janeiro a setembro de 2016; (b) entrar no API-SOF,
+gerando um token de acesso por meio do link https://api.prodam.sp.gov.br/store/; (c) na consulta de contratos, utilizar como filtros
+o órgão, o ano e o CNPJ da empresa; (d) nos contratos listados, buscar aquele que possui valor semelhante ao da planilha e, assim,
+se chegar às liquidações.
+
+Atenciosamente, Daniel de Paula Lamounier Chefe de Gabinete Substituto Controladoria Geral do Município 
+
+Para obter detalhes do pedido de informação registrado, acesse o e-SIC pelo link http://esic.prefeitura.sp.gov.br e
+clique na opção do menu do sistema “Consultar Pedido“. 
+
+Atenciosamente,
+Prefeitura de São Paulo"
+
+Portanto, entedemos que deveríamos que buscar as informações que estavam faltando na API do governo. Buscaremos tais dados e adicionaremos
+na nosso banco de dados de licitações.
+
+### Problemas com a API
+
+Os integrantes Kaio e Vinicius tentaram exaustivamente procurar os dados faltantes na API, porém mesmo com o exemplo do passo a passo,
+o uso da mesma é muito confuso e não retornou nenhum resultado que poderia ser usado em nosso banco de dados de licitações.
+
+### Análise
+
+Pegamos contratos com valores de contrato menor ou igual à R$1.000.000,00 por se tratar de microempresários, achamos melhor pegar valores
+de contrato nessa faixa de valor.
+
+Por conta da falta de informação, o grupo resolveu focar em buscar os 10 fornecedores que possuem maior quantidade de contratos no período
+de 2014 até 2017, somando os valores dos contratos desses fornecedores e fazendo uma comparação entre os mesmos.
+
+Podendo ser usado também a data de publicacão e assinatura do extrato, procurando saber em quanto tempo os contratos foram analisados e
+aceitados.
