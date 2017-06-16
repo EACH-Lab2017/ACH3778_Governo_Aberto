@@ -1,0 +1,28 @@
+*Arquivo 1 - escolar34fev2017*
+	Dados retirados do portal de dados da prefeitura de São Paulo
+	Link: http://dados.prefeitura.sp.gov.br/dataset/cadastro-de-escolas-municipais-conveniadas-e-privadas
+	Das planilhas do site, é a planilha: "Sistema EOL - Extração em 30/04/2017"
+	Os dados da forma como foram disponibilizados encontram-se na aba "escolar34fev2017"
+
+*Arquivo 2 - dicionario34fev2017*
+	Dicionário dos dados disponíveis no arquivo 1 - escolar34fev2017
+	Disponibilizado no portal de dados da prefeitura de São Paulo
+	Link: http://dados.prefeitura.sp.gov.br/dataset/cadastro-de-escolas-municipais-conveniadas-e-privadas
+	Das planilhas do site, é a planilha: "Dicionário de Dados - Cadastro de escolas"
+
+*Arquivo 3 - censoevolutivotodasasredes*
+	Dados do censo escolar das escolas da cidade de Sâo Paulo
+	Disponibilizados no portal de dados da prefeitura de São Paulo
+	Link: http://dados.prefeitura.sp.gov.br/dataset/censo-escolar-na-cidade-de-sao-paulo-1996-a-2015
+	Das planilhas do site, é a planilha: "Censo escolar em São Paulo - 1996 a 2015"
+
+*Arquivo 4 - dicionarioevolutivotodasasredesv17*
+	Dicionário dos dados disponívels no arquivo 3 - censoevolutivotodasasredes
+	Disponibilizado no portal de dados da prefeitura de São Paulo
+	Link: http://dados.prefeitura.sp.gov.br/dataset/censo-escolar-na-cidade-de-sao-paulo-1996-a-2015
+	Das planilhas do site, é a planilha: "Dicionário"
+
+*Arquivo 5 - dadosMineradosEAnalisados*
+	Esse arquivo foi criado pela equipe para minerar e interpretar os dados do arquivo 3 (referente ao censo evolutivo de todas as redes em SP)
+	Na aba "Planilha - Dados Censo", constam os dados do arquivo 3 devidamente tratados e minerados considerando os procedimentos descritos no relatório
+	Na aba "Análises", constam tabelas dinâmicas e gráficos gerados com base nos dados da aba anterior
