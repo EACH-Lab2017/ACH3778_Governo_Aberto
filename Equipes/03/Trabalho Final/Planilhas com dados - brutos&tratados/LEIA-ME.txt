@@ -1,28 +1,34 @@
 *Arquivo 1 - escolar34fev2017*
-	Dados retirados do portal de dados da prefeitura de S„o Paulo
+	Dados retirados do portal de dados da prefeitura de S√£o Paulo
 	Link: http://dados.prefeitura.sp.gov.br/dataset/cadastro-de-escolas-municipais-conveniadas-e-privadas
-	Das planilhas do site, È a planilha: "Sistema EOL - ExtraÁ„o em 30/04/2017"
+	Das planilhas do site, √© a planilha: "Sistema EOL - Extra√ß√£o em 30/04/2017"
 	Os dados da forma como foram disponibilizados encontram-se na aba "escolar34fev2017"
 
 *Arquivo 2 - dicionario34fev2017*
-	Dicion·rio dos dados disponÌveis no arquivo 1 - escolar34fev2017
-	Disponibilizado no portal de dados da prefeitura de S„o Paulo
+	Dicion√°rio dos dados dispon√≠veis no arquivo 1 - escolar34fev2017
+	Disponibilizado no portal de dados da prefeitura de S√£o Paulo
 	Link: http://dados.prefeitura.sp.gov.br/dataset/cadastro-de-escolas-municipais-conveniadas-e-privadas
-	Das planilhas do site, È a planilha: "Dicion·rio de Dados - Cadastro de escolas"
+	Das planilhas do site, √© a planilha: "Dicion√°rio de Dados - Cadastro de escolas"
 
 *Arquivo 3 - censoevolutivotodasasredes*
-	Dados do censo escolar das escolas da cidade de S‚o Paulo
-	Disponibilizados no portal de dados da prefeitura de S„o Paulo
+	Dados do censo escolar das escolas da cidade de S√¢o Paulo
+	Disponibilizados no portal de dados da prefeitura de S√£o Paulo
 	Link: http://dados.prefeitura.sp.gov.br/dataset/censo-escolar-na-cidade-de-sao-paulo-1996-a-2015
-	Das planilhas do site, È a planilha: "Censo escolar em S„o Paulo - 1996 a 2015"
+	Das planilhas do site, √© a planilha: "Censo escolar em S√£o Paulo - 1996 a 2015"
 
 *Arquivo 4 - dicionarioevolutivotodasasredesv17*
-	Dicion·rio dos dados disponÌvels no arquivo 3 - censoevolutivotodasasredes
-	Disponibilizado no portal de dados da prefeitura de S„o Paulo
+	Dicion√°rio dos dados dispon√≠vels no arquivo 3 - censoevolutivotodasasredes
+	Disponibilizado no portal de dados da prefeitura de S√£o Paulo
 	Link: http://dados.prefeitura.sp.gov.br/dataset/censo-escolar-na-cidade-de-sao-paulo-1996-a-2015
-	Das planilhas do site, È a planilha: "Dicion·rio"
+	Das planilhas do site, √© a planilha: "Dicion√°rio"
 
 *Arquivo 5 - dadosMineradosEAnalisados*
 	Esse arquivo foi criado pela equipe para minerar e interpretar os dados do arquivo 3 (referente ao censo evolutivo de todas as redes em SP)
-	Na aba "Planilha - Dados Censo", constam os dados do arquivo 3 devidamente tratados e minerados considerando os procedimentos descritos no relatÛrio
-	Na aba "An·lises", constam tabelas din‚micas e gr·ficos gerados com base nos dados da aba anterior
+	Na aba "Planilha - Dados Censo", constam os dados do arquivo 3 devidamente tratados e minerados considerando os procedimentos descritos no relat√≥rio
+	Na aba "An√°lises", constam tabelas din√¢micas e gr√°ficos gerados com base nos dados da aba anterior
+
+*Arquivo 6 - deinfoidhudh20002010*
+	Base de dados do √çndice de Desenvolvimento Humano Municipal (IDHM) de 2000 e 2010, com o dicion√°rio de vari√°veis j√° incluso.
+	Disponibilizado no Portal de Dados Abertos da Prefeitura de S√£o Paulo
+	Link: http://dados.prefeitura.sp.gov.br/pt_PT/dataset/indice-de-desenvolvimento-humano-municipal
+	Das planilhas do site, √© a planilha: "Base de dados do IDHM 2000 e 2010"
