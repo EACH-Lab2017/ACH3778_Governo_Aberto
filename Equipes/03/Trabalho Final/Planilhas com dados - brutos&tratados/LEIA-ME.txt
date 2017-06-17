@@ -32,3 +32,6 @@
 	Disponibilizado no Portal de Dados Abertos da Prefeitura de São Paulo
 	Link: http://dados.prefeitura.sp.gov.br/pt_PT/dataset/indice-de-desenvolvimento-humano-municipal
 	Das planilhas do site, é a planilha: "Base de dados do IDHM 2000 e 2010"
+
+*Arquivo 7 - idhm_filtered*
+	Base de dados do Arquivo 6 com filtro de variáveis aplicado, ou seja, apenas as variáveis que utilizamos em nossa análise 		encontram-se nesse arquivo. Além disso, há tabelas dinâmicas que comparam as 4 Zonas de São Paulo (Zona Sul, Leste, 			Oeste e Norte) em termos de Renda Per Capita Média, IDHM Educacional Médio, Taxa de Escolarização para faixa etária de 06 a 14 		anos (idade do Ensino Fundamentaç), Índice de Desigualdade (GINI), Taxa de Atividade da faixa etária de 10 a 14 anos (idade dos 	anos finais do Ensino Fundamental) e Taxa de pessoas na faixa etária ideal para o Ensino Fundamental que encontravam-se fora da 	escola.
