@@ -12,7 +12,7 @@ router.route('/').get(function (req, res, next)
   function (err, licitations)
   {
     if (err) return next(err);
-    res.json(licitations);
+    res.json({licitations: licitations});
   });
 });
 
@@ -135,7 +135,7 @@ router.route('/user').post(verify.verifyOrdinaryUser, function (req, res, next)
       function (err, licitations)
       {
         if (err) return next(err);
-        res.json(licitations);
+        res.json({licitations: licitations});
       });
     }
     else
