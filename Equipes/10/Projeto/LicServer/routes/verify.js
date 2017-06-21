@@ -31,6 +31,7 @@ exports.verifyOrdinaryUser = function (req, res, next)
       {
         // if everything is good, save to request for use in other routes
         req.decoded = decoded;
+        
         next();
       }
     });

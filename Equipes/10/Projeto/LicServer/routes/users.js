@@ -72,6 +72,48 @@ router.post('/login', function(req, res, next)
   })(req,res,next);
 });
 
+router.options('/login', function(req, res, next)
+{
+
+  console.log(req.body);
+
+
+  passport.authenticate('local', function(err, user, info)
+  {
+    if (err)
+    {
+      return next(err);
+    }
+    if (!user)
+    {
+      console.log("aqui");
+      return res.status(401).json(
+      {
+        err: info
+      });
+    }
+    req.logIn(user, function(err)
+    {
+      if (err)
+      {
+        return res.status(500).json(
+        {
+          err: 'Could not log in user'
+        });
+      }
+
+      var token = verify.getToken(user);
+      res.status(200).json(
+      {
+        status: 'Login successful!',
+        success: true,
+        token: token,
+        userId: user._id
+      });
+    });
+  })(req,res,next);
+});
+
 router.get('/logout', function(req, res)
 {
   req.logout();
