@@ -199,7 +199,7 @@ router.route('/tags').post(verify.verifyOrdinaryUser, function (req, res, next)
   });
 });
 
-router.route('tags/:tagId').delete(verify.verifyOrdinaryUser, function (req, res, next)
+router.route('/tags/:tagId').delete(verify.verifyOrdinaryUser, function (req, res, next)
 {
   var userId = req.decoded._doc._id;
   userModel.findById(userId, function (err, user)
