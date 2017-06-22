@@ -1,0 +1,19 @@
+<div id="login-modal" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog">
+		<div class="loginmodal-container">
+			<h1 class="horizontalLine">Entrar</h1>
+			<form ng-submit="submit()">
+				<input type="text" ng-model="user.username" placeholder="Nome de usuário">
+				<input type="password" ng-model="user.password" placeholder="Senha">
+
+				<a href="#">Esqueci minha senha</a>
+				</br></br>
+
+				<input type="submit" name="entrar" class="login loginmodal-submit" value="Entrar">
+				<a href="#!/registrar">
+					<input type="submit" name="registrar" class="login loginmodal-submit" value="Registrar">
+				</a>
+			</form>
+		</div>
+	</div>
+</div>

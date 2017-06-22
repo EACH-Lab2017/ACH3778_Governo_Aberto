@@ -1,0 +1,189 @@
+<style>
+
+.container-fluid {
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.navbar-align {
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+	text-align: center;
+}
+
+.section-align{
+    margin: auto;
+    width: 100%;
+    max-width: 950px;
+}
+
+.subtitulo-azul{
+	font-size: 1.7em;
+	font-weight: bold;
+	color: #235594;	
+}
+
+.label-azul{
+	color: #235594;
+	font-weight: bold;
+}
+
+.verticalLine {
+	padding-left: 5px;
+	border-left: 2px solid #235594;
+}
+
+.horizontalLine {
+	padding-bottom: 5px;
+	border-bottom: 2px solid #235594;
+}
+
+.loginmodal-container {
+  padding: 0px 30px 10px 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #e1e1e1;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px 1px rgba(0.5, 0.5, 0, 0);
+  overflow: hidden;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  color: #235594;
+  font-weight: bold;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 30px;
+  font-size: 16px;
+  font-weight: normal;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 30px;
+  padding: 0 5px;
+}
+
+.loginmodal-submit {
+  font-weight: bold;
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #235594;
+  padding: 5px 5px;
+  font-size: 14px;
+}
+
+.loginmodal-submit:hover {
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  color: #000;
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  text-align: center;
+  transition: opacity ease 0.5s;
+} 
+
+.login-help{
+  font-size: 12px;
+}
+
+#selectBusca{
+  
+	float:left;
+	width: 190px; 
+}
+
+#campoBusca{
+   margin-left: 37%;   
+   width: 600px;
+}
+
+.jumbotron{
+  	margin-top: 20px;    
+}
+
+#botaoPesquisaSolicitacao{
+	width: 150px;
+	margin-left: 84%;   
+}
+
+#selectBusca{  
+	float:left;
+	width: 190px; 
+}
+
+#campoBusca{
+	margin-left: 37%;   
+	width: 600px;
+}
+
+.jumbotron{
+  	margin-top: 20px;    
+}
+
+#botaoPesquisaSolicitacao{
+   width: 150px;
+   margin-left: 84%;   
+}
+
+.tabgroup{
+  background-color: #fff;
+}
+.tab{
+	font-weight: bold;
+	border: 0px;
+	color: #fff;
+	text-shadow: 0 1px rgba(0,0,0,0.1); 
+	background-color: #235594;
+	padding: 2px 2px;
+	font-size: 14px;
+	display:inline-block;
+	padding: 5px;
+}
+
+.tab:hover{
+	color: #000;
+}
+
+.tabcontents{
+border: 2px solid #e1e1e1;    
+padding: 5px 20px 5px 20px;
+}
+
+</style>

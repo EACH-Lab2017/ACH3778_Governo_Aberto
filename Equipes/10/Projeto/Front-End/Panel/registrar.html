@@ -1,0 +1,43 @@
+
+﻿<head>
+	<meta  charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="main.css">            <!-- adds css -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>         <!-- adds jQuery -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>         <!-- adds js bootstrap-->
+	<link rel="stylesheet" type="text/css" href="main.css">         <!-- adds css -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">            <!-- adds css bootstrap-->
+
+	<script src="lib/angular/angular.min.js"></script>          <!-- adds angular.js -->
+	<script src="lib/angular/angular-route.min.js"></script>            <!-- adds router module -->
+	<script src = "portal.js"></script>
+</head>
+<body>
+	<div id="login-modal" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog">
+			<div class="loginmodal-container">
+				<h1 class="horizontalLine">Registrar</h1>
+				<form ng-submit="submit()">
+					<span class="label-azul">
+						Razão Social:
+						<input type="text" ng-model="user.documentNumber" placeholder="Empresa Exemplo LTDA">
+						Criar nome de usuário:
+						<input type="text" ng-model="user.username" placeholder="EmpresaExemplo">
+						E-mail:
+						<input type="text" ng-model="user.email" placeholder="empresa.exemplo@email.com">
+						Confirmar e-mail:
+						<input type="text" ng-model="user.emailConfirm" placeholder="empresa.exemplo@email.com">
+						Criar uma senha:
+						<input type="password" ng-model="user.password" placeholder="Senha">
+						Confirmar senha:
+						<input type="password" ng-model="user.senhaConfirm" placeholder="Repita a senha">
+
+						<input type="submit" name="registrar" class="login loginmodal-submit" value="Registrar">
+						<a href="#!/entrar">
+							<input type="submit" name="cancelar" class="login loginmodal-submit" value="Cancelar">
+						</a>
+					</span>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>

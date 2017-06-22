@@ -1,0 +1,61 @@
+<h1 class="subtitulo-azul horizontalLine">
+	Perfil
+</h1>
+<form class="form-horizontal">
+	<div class="form-group form-group-lg">
+		<label class="col-sm-3 control-label titulo-azul">Empresa</label>
+		<div class="col-sm-9">
+			<input class="form-control" type="text" name="empresa" value={{documentNumber}}>
+		</div>
+	</div>
+	<div class="form-group form-group-lg">
+		<label class="col-sm-3 control-label titulo-azul">Usuario</label>
+		<div class="col-sm-9">
+			<input class="form-control" type="text" name="usuario" value={{username}}>
+		</div>
+	</div>
+	<div class="form-group form-group-lg">
+	  <label class="col-sm-3 control-label titulo-azul">E-mail</label>
+	  <div class="col-sm-9">
+			<input class="form-control" type="text" name="email" value={{email}}>
+		</div>
+  </div>
+	<div class="login-help">
+		<a href="#" style="float:right">Esqueci minha senha</a>
+	</div>
+	<div style="fill:100%">
+		<a href="#!/historico"><input type="button" name="licitacoes" class="login loginmodal-submit" value="Ver minhas licitacoes" style="width:40%"></a>
+		<a href="#!/trocarSenha"><input type="submit" name="trocar" class="login loginmodal-submit" value="Trocar Senha" style="width:40%"></a>
+	</div>
+</form>
+</br></br>
+<h1 class="subtitulo-azul horizontalLine">
+	Minhas tags
+	</h1>
+	</hr>
+<div class="row">
+	<div class="col-sm-7">
+		<h4 class="titulo-azul">Tags Cadastradas:</h4>
+		<form>
+			<div>
+				<input type="text" name="tag" placeholder="Procurar Tag" style="width:75%">
+				<button type="submit" name="search" class="login loginmodal-submit" style="width:10%"><i class="fa fa-search" aria-hidden="true"></i></button>
+			</div>
+			<ul class="list-group" style="padding-top:10px">
+				<li class="list-group-item" ng-repeat="tag in tags">{{ tag.tag }}</li>
+			</ul>
+		</form>
+	</div>
+	<div class="col-sm-5  verticalLine">
+		<h4 class="titulo-azul">Adicionar Tag:</h4>
+		<form ng-submit="addTag()">
+			<input type="text" name="tag" placeholder="Tag" ng-model="adicTag" style="width:100%">
+			<input type="submit" name="Adicionar" class="login loginmodal-submit" value="Adicionar" style="width:100%">
+		</form>
+		<h4 class="titulo-azul">Remover Tag:</h4>
+		<form ng-submit="removeTag()">
+			<input type="text" name="tag" placeholder="Tag" ng-model="remTag" style="width:100%">
+			<input type="submit" name="Adicionar" class="login loginmodal-submit" value="Remover" style="width:100%">
+		</form>
+	</div>
+</div>
