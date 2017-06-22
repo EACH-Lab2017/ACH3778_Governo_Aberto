@@ -7,4 +7,4 @@
 
 ## Aperfeiçoamento da ferramenta [Cuidando do Meu Bairro](https://cuidando.vc/)
 
-Todo o código fonte da implementação do sistemas de recursos pode ser encontrada [Neste repositório](https://gitlab.com/cuidandodomeubairro/) do Gitlab.
+Todo o código fonte da implementação do sistemas de recursos pode ser encontrada [neste repositório](https://gitlab.com/cuidandodomeubairro/) do Gitlab.
