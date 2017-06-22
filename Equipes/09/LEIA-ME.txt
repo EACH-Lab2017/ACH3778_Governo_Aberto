@@ -1,0 +1,40 @@
+	Os arquivos contidos nesta pasta são referentes ao trabalho desenvolvido pelo grupo 9 durante o primeiro semestre de 2017 para a disciplina "Governo Aberto" da EACH (Escola de Artes, Ciências e Humanidades), localizada no campus da USP Leste.
+	O estudo se refere ao levantamento dos portais de transparência das capitais brasileiras, com exceção de São Paulo, a fim de analisar alguns critérios pré-defnidos.
+	Abaixo está a documentação dos materiais presentes em cada diretório.
+
+
+Relatório Final.PDF - relatório final, entregue após a conclusão do projeto.
+
+Semana 1 - 19.04 a 25.04
+	Ata - Semana 1.docx - ata de reunião feita durante a aula do dia 19/04/2017.
+	Ata - Semana 1.odt - opção de arquivo em formato de software livre.
+	Referências.txt - referências bibliográficas encontradas pelo grupo, que abordam o 	tema do projeto,  para auxiliar na execução dele.
+
+Semana 2 - 26.04 a 02.05
+	Ata - Semana 2.odt - ata de reunião feita durante a aula do dia 26/04/2017.
+	FichaAvaliacao.xlsx - primeira versão da ficha de avaliação a ser usada nas análises 	dos portais de tranparência.
+	FichaAvaliacao.ods -  opção de arquivo em formato de software livre.
+
+Semana 3 - 03.05 a 09.05
+	Ata-Semana3.odt - ata de reunião feita durante a aula do dia 03/05/2017.
+	Ata - Reuniao extraordinaria com Andres - ata de reunião por Skype com Andres, 	criador do site Cuidando do meu bairro, no dia 08/05/2017.
+
+Semana 4 - 10.05 a 16.05
+	Ata - Semana 4.odt - ata de reunião feita durante a aula do dia 10/05/2017.
+	Divisão Capitais.ods - atribuição de tarefas para os membros da equipe.
+
+Semana 5 - 17.05 a 23.05
+	Ata - Semana 5.odt - ata de reunião feita durante a aula do dia 17/05/2017.
+	Ficha Avaliação Final.ods - versão final da ficha de avaliação dos portais de 	transparência, já preenchida de acordo com o levantamento.
+	Documentação da ficha de avaliação.odt - documento que explica cada um dos 	critérios usados na ficha de avaliação, essencial para a leitura dela.
+
+Semana 8 - 07.06 a 13.06
+	Slides-Apresentacao.pptx - slides usados durante a apresentação do trabalho pelo 	grupo durante 	a aula do dia 14/06/2017.
+	Tabela Geral.xlsx - tabela que reune todas informações das fichas de avaliação. 	Usada para a elaboração dos gráficos.
+
+	Figuras
+		Esse diretório contém as figuras geradas para os slides e relatório final.
+
+		Vetores
+			Esse diretório contém as figuras em formato vetorizado.
+
