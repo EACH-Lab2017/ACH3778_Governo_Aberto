@@ -46,6 +46,9 @@ Isso deverá rodaro servidor do Django localmente, feito isso, provavelmente ele
 
 Ficou alguma dúvida? Teve algum problema? Não deixe de nos contatar!! Os responsáveis por esse projeto estão listados aqui embaixo...
 
+OBS: Todo código dentro do diretório "Codigo" é referente a esse tutorial acima. Para além disso executar o script que recupera as informações do diário livre, é preciso que você execute o script da pasta "Calendario-Livre-master".
+
+
 ## Como esta estruturado nosso código? 
 
 Nossa aplicação esta em um formato aceitável pelo Heroku PaaS! Para mantermos o padrão, deixamos alguns arquivos de configuração de fora do .gitignore para que a experiência e sair do ambiente de dev. e colocar na nuvem seja a mais tranquila possível! 
