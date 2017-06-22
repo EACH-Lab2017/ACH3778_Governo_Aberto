@@ -1,0 +1,23 @@
+{
+  "name": "calendario_livre",
+  "authors": [
+    "Antonio Carlos <baptistaacbc@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.4",
+    "angular-ui-calendar": "^1.0.2",
+    "angular-material": "^1.1.4",
+    "angular-bootstrap": "^2.5.0"
+  }
+}

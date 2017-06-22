@@ -1,0 +1,189 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html ng-app='calendario-livre' >
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js'></script> -->
+        
+        <link rel="stylesheet" href="{% static 'bower_components/fullcalendar/dist/fullcalendar.css' %}"/>
+        <link rel="stylesheet" href="{% static 'bower_components/angular-bootstrap/ui-bootstrap-csp.css' %}"/>
+        <link rel="stylesheet" href="{% static 'bower_components/angular-material/angular-material.css' %}"/>
+        <link rel="stylesheet" href="{% static 'bower_components/bootstrap/css/bootstrap.min.css' %}">
+         <link rel="stylesheet" href="{% static 'estilo.css' %}">
+        <!--<link rel="stylesheet" href="estilo.css">-->
+        <!-- jquery, moment, and angular have to get included before fullcalendar -->
+        <script type="text/javascript" src=" {% static 'bower_components/jquery/dist/jquery.js' %}"></script>
+        <script type="text/javascript" src=" {% static 'bower_components/moment/moment.js' %}"></script>
+        <script type="text/javascript" src=" {% static 'bower_components/angular/angular.js' %}"></script>
+        <script type="text/javascript" src=" {% static 'bower_components/angular-ui-calendar/src/calendar.js' %}"></script>
+        <script type="text/javascript" src=" {% static 'bower_components/fullcalendar/dist/fullcalendar.js' %}"></script>
+        <script type="text/javascript" src=" {% static 'bower_components/fullcalendar/dist/gcal.js' %}"></script>
+        <script type="text/javascript" src=" {% static 'bower_components/angular-animate/angular-animate.js' %}"></script>
+        <script type="text/javascript" src=" {% static 'bower_components/angular-aria/angular-aria.js' %}"></script>
+        <script type="text/javascript" src=" {% static 'bower_components/angular-bootstrap/ui-bootstrap.js' %}"></script>
+        <script type="text/javascript" src=" {% static 'bower_components/angular-messages/angular-messages.js' %}"></script>
+        <script type="text/javascript" src=" {% static 'bower_components/angular-material/angular-material.js' %}"></script>
+        <script src="{% static 'bower_components/fullcalendar/dist/lang/pt-br.js' %}"></script>
+
+<style>
+
+  
+
+</style>
+
+    </head>
+    <body>
+        {% verbatim %}
+        <div ng-controller='EventosController'>
+            <nav class='navbar navbar-default'>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 navbar navbar-header">
+                            <h1>CALIVRE: Seu Calendário de Audiências Públicas</h1>
+                        
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <ul class="nav nav-tabs">
+                                <li><a href="" >Calendário</a></li>
+                                <li><a href="" >Contato</a></li>
+                                <li><a href="" >Legislativo</a></li>
+                                
+                            </ul>
+                        </div>
+                        
+                                        
+                    </div>
+
+            
+                </div>
+            </nav>
+
+            <div id='calendar' ui-calendar='uiConfig.calendar' ng-model="eventSources"></div>
+
+
+        </div>
+        
+    <!-- 
+        <div ng-controller='EventosController'>
+        
+            <md-toolbar class="md-hue-2">
+                <div class="md-toolbar-tools">
+                  <h2 class="md-flex">CALIVRE: Seu Calendário de Audiências Públicas</h2>
+                </div>
+                <!-- <md-button class="md-icon-button" aria-label="Settings" ng-disabled="true">
+                  <md-icon md-svg-icon="{% static 'imagens/calendario_branco.svg' %}"></md-icon>
+                </md-button> -->  <!--
+              </md-toolbar>
+              <br><br>
+            <md-content layout-padding layout-wrap>
+                <div ui-calendar='uiConfig.calendar' ng-model="eventSources"></div>    
+            </md-content>
+        </div>-->
+         
+        {% endverbatim %}
+        
+        <script>
+            (function() {
+                'use scrict';
+                angular.module('calendario-livre', ['ngMaterial', 'ui.calendar'])
+                    .controller('EventosController', ['$scope', '$http', '$compile', '$timeout', EventosController]);
+                    
+                    
+                    
+                    function EventosController($scope, $http, $compile, $timeout) {
+                        
+                        $scope.events = [
+                          //{title: 'All Day Event',start: new Date('2017', '6', 6)},
+                          //{title: 'Teste 1 ',start: new Date('2017', '6', 7)},
+                          //{id: 11, title: 'Teste 2',start: new Date('2017', '6', 12)},
+                          // {id: 2 title: 'Novo evento irado!',start: '2017', '5', '5'},
+                          //{id: 999,title: 'Repeating Event',start: new Date('2017', '6', '10' - 3, 16, 0),allDay: false},
+                          {title: 'Conselho Municipal dos Direitos da Criança e do Adolescente de São Paulo',start: new Date('2017', 5, 19),end: new Date('2017', '5', 19),url: 'http://devcolab.each.usp.br/do/2017/06/04/265'},  
+                          {title: 'OBJETO: Licitação para Concessão do Serviço de Transporte Coletivo Público de Passageiros na Cidade de São Paulo. ',start: new Date('2017', 5, 1),end: new Date('2017', '5', 1),url: 'http://devcolab.each.usp.br/do/2017/05/19/439'}
+
+                        ];
+                                    
+                        $scope.eventSources = [$scope.events];
+                        
+                           /* Render Tooltip */
+                        $scope.eventRender = function( event, element, view ) { 
+                            // element.attr({'tooltip': event.title, 'tooltip-append-to-body': true});
+                            // $compile(element)($scope);
+                            $timeout(function(){
+                                $(element).attr('tooltip', event.title);
+                                $compile(element)($scope);
+                              });
+                        };
+                        
+                        $scope.uiConfig = {
+                          calendar:{
+                            height: 470,
+                            editable: false,
+                            header:{
+                              right: 'month basicWeek basicDay',
+                              center: 'title',
+                              left: 'prev today next'
+                            },
+                            navLinks: true,
+                            nowIndicator: false,
+                            weekends: false,
+                            eventLimit: true,
+                            eventClick: $scope.alertEventOnClick,
+                            eventDrop: $scope.alertOnDrop,
+                            eventResize: $scope.alertOnResize,
+                            eventRender: $scope.eventRender,
+                          },
+                          eventClick: function(calEvent, jsEvent, view) {
+                              if(calEvent.url) {window.open(calEvent.url, '_blank'); return true;}
+                            }
+                        };
+                        
+                        // Tentativa de mudar p/ PT-BR
+                        // $scope.changeLang = function() {
+                        //   if($scope.changeTo === 'Portuguese'){
+                        //     $scope.uiConfig.calendar.dayNames = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"];
+                            
+                        //     $scope.uiConfig.calendar.dayNamesShort = ["Seg", "Ter", "Qua", "Qui", "Sex", "Sab", "Dom"];
+                        //     $scope.changeTo= 'English';
+                        //   } else {
+                        //     $scope.uiConfig.calendar.dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+                        //     $scope.uiConfig.calendar.dayNamesShort = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+                        //     $scope.changeTo = 'Portuguese';
+                        //   }
+                        // };
+                                         
+                        $http.get('/calendario/eventos/').then(function(response) {
+                            $scope.eventos = response.data; //representa a resposta http                             
+                        });
+                        
+                        $scope.addEvent = function(titulo, data, link) {
+                          $scope.events.push({
+                            title: titulo,
+                            start: data,
+                            className: ['openSesame'],
+                            url: link
+                          });
+                        };
+                        
+                        $scope.addEvento = function(evento) {
+                            $http.post('calendario/eventos/', evento). then(function(response) {
+                                //aqui podemos atualizar a lista de eventos que existe no calendario usando eventos.push.(response.data)                        
+                                $scope.addEvent(evento);
+                            }); 
+                        };
+                        
+                        $scope.renderCalender = function(calendar) {
+                          if(uiCalendarConfig.calendars[calendar]){
+                            uiCalendarConfig.calendars[calendar].fullCalendar('render');
+                          }
+                        };
+                        
+                     
+                        
+                    }
+                    
+            }());
+        </script>
+    </body>
+</html>

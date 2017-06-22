@@ -1,0 +1,30 @@
+<!doctype html>
+<html ng-app="jh.calendar.demo" ng-controller="CalendarController">
+	<head>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="calendar.js"></script>
+		<script>
+			angular.module('jh.calendar.demo', ['jh.calendar'])
+				.controller('CalendarController', function ($scope) {
+					$scope.startMonth = new Date(2013, 10);
+					$scope.nextMonth = function () {
+						$scope.startMonth = new Date(2013, $scope.startMonth.getMonth()+1);
+					};
+					$scope.prevMonth = function () {
+						$scope.startMonth = new Date(2013, $scope.startMonth.getMonth()-1);
+					};
+					$scope.alertDay = function (day) { alert('You clicked ' + $scope.startMonth.getDate()); };
+				});
+		</script>
+
+		<link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+		<link href="calendar.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<h1>Calendar Demo Page</h1>
+
+		<a ng-click="prevMonth()">Prev Month</a> | <a ng-click="nextMonth()">Next Month</a>
+
+		<calendar for="startMonth" on-click="alertDay()"></calendar>
+	</body>
+</html>

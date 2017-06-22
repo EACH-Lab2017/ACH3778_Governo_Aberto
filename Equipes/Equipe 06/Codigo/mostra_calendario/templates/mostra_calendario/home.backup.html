@@ -1,0 +1,87 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <body ng-app='calendario-livre'>
+        {% verbatim %}
+        <div ng-controller='EventosController'>
+            <!-- <div ng-repeat='evento in eventos'>
+                {{evento}}
+            </div> -->
+            Mostrando Calendário:
+            <div ui-calendar="uiConfig.calendar" ng-model="eventSources" calendar='calendario-livre'>
+</mwl-calendar>
+        </div>
+        
+        {% endverbatim %}
+        <!-- <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js'></script> -->
+        
+        <!-- JS -->
+        <script src="{% static 'bower_components/jquery/dist/jquery.min.js' %}"></script>
+        <script src="{% static 'bower_components/angular/angular.js' %}"></script>
+        <script src="{% static 'bower_components/angular-animate/angular-animate.js' %}"></script>
+        <script src="{% static 'bower_components/angular-aria/angular-aria.js' %}"></script>
+        <script src="{% static 'bower_components/angular-material/angular-material.js' %}"></script>
+        <script src="{% static 'bower_components/angular-sanitize/angular-sanitize.js' %}"></script>
+        <script src="{% static 'bower_components/moment/min/moment.min.js' %}"></script>
+        <script src="{% static 'bower_components/angular-ui-calendar/src/calendar.js'%}"></script>
+        <script src="{% static 'bower_components/fullcalendar/dist/fullcalendar.min.js'%}"></script>
+        <script src="{% static 'bower_components/fullcalendar/dist/gcal.js'%}"></script>
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="{% static 'bower_components/angular-material/angular-material.css' %}">
+        <link rel="stylesheet" href="{% static 'bower_components/fullcalendar/dist/fullcalendar.css' %}"/>
+        
+        <script>
+            (function() {
+                'use scrict';
+                angular.module('calendario-livre', ['ngMaterial', 'ui.calendar', 'ui.bootstrap'])
+                    .controller('EventosController', ['$scope', '$http', EventosController]);
+                    
+                    
+                    
+                    function EventosController($scope, $http) {
+                        
+                        $scope.eventSources = [];
+                        
+                        $scope.uiConfig = {
+                          calendar:{
+                            height: 450,
+                            editable: true,
+                            header:{
+                              left: 'month basicWeek basicDay agendaWeek agendaDay',
+                              center: 'title',
+                              right: 'today prev,next'
+                            },
+                            eventClick: $scope.alertEventOnClick,
+                            eventDrop: $scope.alertOnDrop,
+                            eventResize: $scope.alertOnResize
+                          }
+                        };
+                        
+                        $scope.addEvent = function(titulo, data, link) {
+                          $scope.events.push({
+                            title: titulo,
+                            start: data,
+                            end: data,
+                            className: ['openSesame'],
+                            link: link
+                          });
+                        };
+                        
+                        $scope.eventos = []
+                        
+                        $http.get('/calendario/eventos/').then(function(response) {
+                            $scope.eventos = response.data; //representa a resposta http                             
+                        });
+                      
+                        $scope.addEvento = function(evento) {
+                            $http.post('calendario/eventos/', evento). then(function(response) {
+                                //aqui podemos atualizar a lista de eventos que existe no calendario usando eventos.push.(response.data)                        
+                            }); 
+                        };
+                    }
+                    
+            }());
+        </script>
+    </body>
+</html>
