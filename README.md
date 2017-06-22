@@ -7,21 +7,27 @@ Equipe 2: Pedro Beraldo, Renan Rogério Boni, Lucas Borelli Amaral, Priscila Lir
 
 Equipe 3: Camila Faria de Castro, Higor Lima Neves, Leandro Rodrigues, Lucas Correia Silva e Lucas Marçal (Projeto 10)
 
-Equipe 4: Leonardo Piccioni de Almeida, Marcos Vinicius de Aquino Giurni, Rafael Ribeiro Motta Ferreira + 2 (Projeto 2)
+Equipe 4: Leonardo Piccioni de Almeida, Marcos Vinicius de Aquino Giurni, Rafael Ribeiro Motta Ferreira, Roberto de Lucas Mescoloto + 1 (Projeto 2)
 
 Equipe 5: Alexsander Yokoyama, Leandro Lessa, Matheus Pinheiro, Matheus Silva ,Thiago Bastos (Projeto 12)
 
-Equipe 6: Keven Aderson, Felipe Erich Appel Romero, Rafael Condez Gosson Pavarini + 2 (Projeto 5)
+Equipe 6: Keven Aderson, Felipe Erich Appel Romero, Rafael Condez Gosson Pavarini, Antonio Coelho , Gisely Alves (Projeto 5)
 
-Equipe 7: Rafael Henrique Amado, Vinicius Paes Pó, Dirceu Neto, Felipe Nunes +1 (Projeto 6)
+Equipe 7: Rafael Henrique Amado, Vinicius Paes Pó, Dirceu Neto, Felipe Nunes, Lais Freire de Oliveira (Projeto 6)
 
 Equipe 8: Waldir Merotti, Rafael Bombardelli Weiser, Matheus Ribeiro, Matheus Pereira de Almeida +1 (Projeto 8)
 
 Equipe 9: Fabiano Figueira Fernandes Sampaio, Marcello Malagoli Ziravello, Mariana Soares Viana, Raphael Takashi Miyaguni Franciscatte, Suzylaine da Silva Lima (Projeto 15)
 
-Equipe 10: Thiago Bonfiglio, Rodrigo Kuba, Gerson Revoredo (Projeto 3)
+Equipe 10: Thiago Bonfiglio, Rodrigo Kuba, Gerson Revoredo, Marco Modena Centeno (Projeto 3)
 
 Equipe 11: Camila Izidio Costa, Vanessa Nigro Paro, Rodrigo Guerra , Priscila Coura Leme e Douglas Fernando Raymundo (Projeto 11)
+
+Equipe 12: Daniel Fortunato Rezina, Douglas Andrade, Guilherme Mandri, Jéssica de Abreu Marcon, Juan Silva Nogueira(Projeto 4)
+
+Equipe 13: Clayton dos Santos Lima, Gabriel Bonassi Zulpo, Gabriel Henrique de Oliveira, Giovane Gabrielli, Gleidson Fernandes de Souza(Projeto 16)
+
+Equipe 14: Filipe Filardi de Jesus, Renan de Souza Ferreira + 3 (Projeto 17)
 
 <h2> Aula 1 (Data:8/3)</h2>
 Movimento do Aberto (FLOSS, Open Access, Open Data, Open Government)
@@ -103,4 +109,37 @@ https://www.w3.org/TR/dwbp-ucr/
 Dissertação: Proposta de uma ferramenta de anotação semântica para publicação de dados estruturados na Web
 https://newtoncalegari.com.br/CALEGARI-2016-mestrado.pdf 
 
+<h2> Aula 5 (26/04) </h2>
 
+1. Lei Complementar n∘ 101, Brasil (2000), http://www.planalto.gov.br/ccivil_03/Leis/LCP/Lcp131.htm
+
+2.Open Government Data Principles (2007), http://www.opengovdata.org/home/8principles
+
+3.Lei Complementar n∘ 131, Brasil (2009), http://www.planalto.gov.br/ccivil_03/Leis/LCP/Lcp131.htm
+
+4.Zemanta service (2009), http://developer.zemanta.com/media/files/docs/zemanta_api_companion.pdf
+
+5.Ontos Semantic Technologies (2010), http://www.ontos.com
+
+6.TextWise (2010), http://www.textwise.com
+
+7.LEXML: Controlled Vocabularies (2011), http://projeto.lexml.gov.br/documentacao
+
+8.Brandão, S.N., da Silva, T.S., Rodrigues, S., Araujo, L., Silva, D., de Souza, J.M.: Siop-legis: Thesaurus for selection and management of brazilian treasury domain. In: KMIS, pp. 195–200 (2011)
+
+9.Craveiro, G.S.: Where does the money go? The challenge of transparency in state spending. Global Information Society Watch 2012 - The Internet and Corruption (2012)
+
+10.Craveiro, G.S., Santana, M.T., Albuquerque, J.P.: Assessing Open Government Budgetary Data in Brazil. In: ICDS 2013, The Seventh International Conference on Digital Society, pp. 20–27 (2013)
+
+11.Popov, B., Kiryakov, A., Kirilov, A., Manov, D., Ognyanoff, D., Goranov, M.: Kim–Semantic annotation platform. In: Fensel, D., Sycara, K., Mylopoulos, J. (eds.) ISWC 2003. LNCS, vol. 2870, pp. 834–849. Springer, Heidelberg (2003)
+CrossRefGoogle Scholar
+
+12.Thomas, R.: OpenCalais Documentation (2010), http://www.opencalais.com/documentation/opencalais-documentation
+
+13.The 8 Principles of Open Government Data (2007), http://opengovdata.org
+
+14.Walker, S.T.: Budget mapping: Increasing citizen understanding of government via interactive design. In: 2014 47th Hawaii International Conference on System Sciences, pp. 1–9 (2010)
+
+<h2> Aula 7 (10/05) </h2>
+
+Link para Video exibido em sala: https://youtu.be/9kadoOsp2g4?list=PLP3cgNWg2ZqNnMiIzKw6PUfuDwUfs9TJC

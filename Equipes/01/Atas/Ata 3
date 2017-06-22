@@ -1,0 +1,27 @@
+# Projeto 09
+
+Semana 03:
+
+## Componentes da equipe 1
+
+* Daniel Carvalho - 8515923
+* Henrique Bortoletti - 9424083
+* Kaio Henrique Pedroza Silva - 8516559
+* Vinicius Rezende - 9377588
+
+## Resumo da semana
+
+### Ferramentas de manipulação de dados
+
+Foram plotados 6 gŕáficos em relação aos dados encontrados no dataset de base de compras e licitações em http://dados.prefeitura.sp.gov.br/dataset/base-de-compras-e-licitacoes,
+divididos em: diferença entre assinatura e publicação (book1 e book1juridica), diferença entre pessoa jurídica e pessoa física (book2), modalidades das licitações, média de diferença
+entre assinatura e publicação por órgão e top 10 de maior diferença entre assinatura e publicação.
+
+### Diminuição do escopo do projeto
+
+Segundo a conversa com a professora e a auxiliar do Observatório Social, precisamos achar uma base que nos dê datas sobre a licitação, pois a base que encontramos nos dá uma outra data
+que não nos serve muito bem, para o nosso objetivo.
+
+## Pauta da próxima reunião
+* Procurar uma base mais completa.
+* Tirar dúvidas sobre o andamento do projeto.

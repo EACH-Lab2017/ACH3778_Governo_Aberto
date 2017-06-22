@@ -1,0 +1,21 @@
+# Reuniâo 03 - Dia 10.05.2017
+
+- Grupo apresentou a implementação do trabalho para a professora
+- Aderimos a sugestão do Bruno(utilizar PORTARIA INTERSECRETARIAL Nº 3/2014 - CGM) para esclarecer as dúvidas sobre imprecisão de informações na LAI
+- Grupo irá separar os itens específicos que são obrigatórios por lei a serem disponibilizados pelas secretarias
+nos seus respectivos websites(das 25 secretarias separadas entre os membros do grupo)
+- Inserir na implementação a experiência que o grupo teve ao entrar em contato com dados abertos na PMSP
+
+
+
+
+Anotações:
+
+http://www.prefeitura.sp.gov.br/cidade/secretarias/upload/
+controladoria_geral/Manual_AcessoInfoFINAL(1).pdf
+
+http://www.cgu.gov.br/Publicacoes/transparencia-publica/
+brasil-transparente/arquivos/manual_lai_estadosmunicipios.pdf
+
+PORTARIA INTERSECRETARIAL Nº 3/2014 - CGM
+http://www3.prefeitura.sp.gov.br/cadlem/secretarias/negocios_juridicos/cadlem/integra.asp?alt=23082014PI000032014CGM

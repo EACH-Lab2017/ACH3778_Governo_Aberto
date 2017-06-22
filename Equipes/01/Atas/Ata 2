@@ -1,0 +1,22 @@
+# Projeto 09
+
+Semana 02:
+
+## Componentes da equipe 1
+
+* Daniel Carvalho - 8515923
+* Henrique Bortoletti - 9424083
+* Kaio Henrique Pedroza Silva - 8516559
+* Vinicius Rezende - 9377588
+
+## Resumo da semana
+
+### Base que será utilizada:
+
+Usaremos os dados encontrados no dataset de base de compras e licitações em http://dados.prefeitura.sp.gov.br/dataset/base-de-compras-e-licitacoes,
+para encontramos se há algum favorecimento de licitação para pessoa física ou jurídica. No caso, iremos procurar alguma forma de calcular tempo e quantidade
+da licitação por órgão ou pessoa.
+
+## Pauta da próxima reunião
+* Apresentar os dados analisados.
+* Dúvidas sobre o andamento do projeto.

@@ -1,0 +1,43 @@
+/*
+*
+*@authot Gisely Alves Brandão
+*@version 0.1
+*/
+
+
+h1{
+	font-family: Helvetica, Courier, sans-serif;
+	color: #fff;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+.navbar-default{
+
+	background-color: #337ab7;
+	
+}
+
+.navbar-header{
+	text-align: center;
+}
+.container{
+		
+}
+.nav-tabs{
+	float: right;
+	margin-top: 110px;
+	border-bottom: none;
+}
+
+.nav-tabs > li > a{
+	color: #fff;
+}
+
+.nav-tabs > li > a:hover{
+	color: #337ab7;
+}
+#calendar{
+	margin: 50px;
+	padding: 30px;
+}

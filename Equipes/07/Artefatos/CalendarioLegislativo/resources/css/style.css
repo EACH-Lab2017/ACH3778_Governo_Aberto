@@ -1,0 +1,114 @@
+@CHARSET "ISO-8859-1";
+
+
+body{
+	font-family: 'Libre Baskerville', serif;
+}
+
+.events-table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+	/*border: 1px solid black;*/
+}
+			
+.events-td-th{
+    text-align: left;
+    padding: 8px;
+}
+
+.events-tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.calendario {
+	margin-bottom: 20px;
+	width:85%;
+}
+
+.calendario-tr{
+	border-style:solid;
+	border-radius:3px;   
+	border-color:#829399 ;
+	text-align: center;
+}
+
+.calendario-th{
+	border-style:none;
+	text-align: center;
+}
+
+.calendario-td{
+	border-style:none;
+	text-align: center;
+}
+
+
+.calendario_dia{
+/* 	background-color:#829399; */
+	border-style:solid;
+	border-radius:3px;
+	border-color:#829399;
+	width:2%;
+	text-align: center;
+}
+
+.calendario_dia_check{
+/* 	background-color:#FFFFFF; */
+	border-style:solid;
+	border-radius:3px;
+	border-color:#829399;
+	width:2%;
+	text-align: center;
+}
+
+.calendario_dia:hover{
+ 	background-color:#000080; 
+	color:#ffffff;
+	border-color:#B4C8CF;
+	text-align: center;
+}
+
+.calendario-select{
+	background-color: #B4C8CF; 
+	border-style:none;
+}
+
+.calendario-tbody{
+	border-style:none;
+}
+
+table{
+	border-spacing:30px 2px;
+	margin-top: 20%;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+table.calendario{
+	margin-top:5%;
+	border-style: solid;
+    border-radius: 3px;
+    border-color: #829399;
+    height: 40%;
+}
+
+
+select#local{
+	width: 200px;
+}
+
+.button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 5px 11px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12pt;
+    border-radius: 4px
+}
