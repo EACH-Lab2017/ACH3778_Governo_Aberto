@@ -1,42 +1,84 @@
-@CHARSET "ISO-8859-1";
-
-
 body{
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Roboto', sans-serif;
+	width:100% !important;
 }
 
-.events-table{
+.container{
+	width:100% !important;
+}
+
+.header, .calendario-th, #events-table >  div:first-child{
+	background-color:#008CBA !important;
+	color:white;
+}
+.header{
+	border-radius:0px 0px 25px 0px;
+}
+#events-table > div:first-child{
+	padding:10px;
+	border-radius:5px 25px 5px 25px;
+}
+.filtros-container{
+	-webkit-box-shadow: -1px 6px 32px -5px rgba(0,0,0,0.1);
+	-moz-box-shadow: -1px 6px 32px -5px rgba(0,0,0,0.1);
+	box-shadow: -1px 6px 32px -5px rgba(0,0,0,0.1);
+	border-radius:5px;
+	padding-top:10px;
+	padding-bottom:5px;
+	margin-top:2%;
+	
+}
+#events-table{
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 80%;
+    width: 90%;
+    border-radius:15px;
     margin: 0 auto;
+    -webkit-box-shadow: -1px 6px 32px -5px rgba(0,0,0,0.22);
+	-moz-box-shadow: -1px 6px 32px -5px rgba(0,0,0,0.22);
+	box-shadow: -1px 6px 32px -5px rgba(0,0,0,0.22);
+	margin-bottom:50px;
 	/*border: 1px solid black;*/
 }
-			
+#events-table > h6{
+	padding:50px;
+	text-align:center;
+	font-size:2em;
+}	
 .events-td-th{
     text-align: left;
     padding: 8px;
 }
 
-.events-tr:nth-child(even) {
-    background-color: #dddddd;
-}
 
 .calendario {
 	margin-bottom: 20px;
-	width:85%;
+	width:90%;
+	min-width:200px;
+	margin-right:0;
+	-webkit-box-shadow: -1px 6px 32px -5px rgba(0,0,0,0.22);
+	-moz-box-shadow: -1px 6px 32px -5px rgba(0,0,0,0.22);
+	box-shadow: -1px 6px 32px -5px rgba(0,0,0,0.22);
 }
 
 .calendario-tr{
 	border-style:solid;
 	border-radius:3px;   
-	border-color:#829399 ;
+	border-color: #008CBA ;
 	text-align: center;
+	padding:20px;
+	
 }
 
+.calendario-footer{
+	border:1px #829399 solid !important;
+	background-color:#008CBA !important;
+
+}
 .calendario-th{
 	border-style:none;
 	text-align: center;
+	font-size:0.8em;
 }
 
 .calendario-td{
@@ -51,6 +93,8 @@ body{
 	border-radius:3px;
 	border-color:#829399;
 	width:2%;
+	font-size:0.9em;
+	height:25px;
 	text-align: center;
 }
 
@@ -64,14 +108,18 @@ body{
 }
 
 .calendario_dia:hover{
- 	background-color:#000080; 
+ 	background-color:#006282; 
 	color:#ffffff;
 	border-color:#B4C8CF;
+	cursor:pointer;
 	text-align: center;
 }
 
 .calendario-select{
-	background-color: #B4C8CF; 
+	background-color: #008CBA; 
+	color:white;
+	border-radius:3px;
+	border:none !important;
 	border-style:none;
 }
 
@@ -86,8 +134,12 @@ table{
 	margin-left: auto;
 	margin-right: auto;
 }
-
-
+#events-table >  .row:nth-of-type(odd) {
+    background-color: #eef9fb;
+}
+.table-row{
+	margin: 0 !important;
+}
 table.calendario{
 	margin-top:5%;
 	border-style: solid;

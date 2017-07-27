@@ -9,7 +9,8 @@ SELECT
 	CASE horario_fim WHEN '00:00:00' THEN '' ELSE TIME_FORMAT(horario_fim, '%H:%i')  END horario_fim,
 	assunto,
 	local,
-	condutor
+	condutor,
+	poder
 FROM  tb_eventos_camara
 WHERE 1=1
 ";
@@ -26,35 +27,42 @@ if ($_GET['condutor'] != ''){
 	$query = $query . " AND condutor LIKE '%{$filtro_condutor}%' ";
 }
 
+if ($_GET['poder'] != '') $query = $query . " AND poder = '{$_GET['poder']}' ";
+
 if (isset($_GET['data']) && $_GET['data'] != ''){ 
 	$query = $query . " AND data = '{$_GET['data']}'";
 } else{
 	$query = $query  . " AND data > CURDATE() "; 
 }
 
-
 $query  = $query . " ORDER BY data ASC, 2 ASC;";
 $selectResult = mysqli_query($conexao, $query);
-
-
-echo utf8_encode("<tr >
-		<th Class='events-td-th' >Data</th>
-		<th Class='events-td-th' >Horario de início</th>
-		<th Class='events-td-th' >Horario de término</th>
-		<th Class='events-td-th' >Assunto</th>
-		<th Class='events-td-th' >Local</th>
-		<th Class='events-td-th' >Codutor do evento</th>
-	</tr>");
-
-while($row = mysqli_fetch_assoc($selectResult)){
-	echo '<tr class="events-tr" >';
-	echo '<td class="events-td-th" style="width:85;px;padding: 2px;">'.$row['datas'].'</td>';
-	echo '<td class="events-td-th" >'.$row['horario_inicio'].'</td>';
-	echo '<td class="events-td-th" >'.$row['horario_fim'].'</td>' ;
-	echo '<td class="events-td-th" >'.$row['assunto'].'</td>';
-	echo '<td class="events-td-th" >'.$row['local'].'</td>';
-	echo '<td class="events-td-th" >'.$row['condutor'].'</td>';
-	echo '</tr>';
+if($selectResult->num_rows == 0){
+	echo "<h6>Nenhum evento encontrado</h6>";
+}else{
+	echo utf8_encode('<div class="row table-row"  >
+						<div class="col-md-1" >Data</div>
+						<div class="col-md-1" >Horario de início</div>
+						<div class="col-md-1" >Horario de término</div>
+						<div class="col-md-4" >Assunto</div>
+						<div class="col-md-2" >Local</div>
+						<div class="col-md-2" >Condutor do evento</div>
+						<div class="col-md-1" >Poder</div>
+				</div>
+	');
+	
+	while($row = mysqli_fetch_assoc($selectResult)){
+		echo '<div class="row table-row"  style="padding:5px ; " >';
+		echo '	<div class="col-md-1" >'.$row['datas'].'</div>';
+		echo '	<div class="col-md-1" >'.$row['horario_inicio'].'</div>';
+		echo '	<div class="col-md-1" >'.$row['horario_fim'].'</div>' ;
+		echo '	<div class="col-md-4" >'.$row['assunto'].'</div>';
+		echo '	<div class="col-md-2" >'.$row['local'].'</div>';
+		echo '	<div class="col-md-2" >'.$row['condutor'].'</div>';
+		echo '	<div class="col-md-1" >'.$row['poder'].'</div>';
+		echo '</div>';
+	}
 }
+
 
 ?>

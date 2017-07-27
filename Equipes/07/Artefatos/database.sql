@@ -11,4 +11,5 @@ CREATE TABLE `Calendario_Legislativo`.`tb_eventos_camara` (
   `horario_fim` TIME(0) NULL,
   `local` VARCHAR(4000)  NULL,
   `condutor` VARCHAR(4000) NULL,
+  `poder` VARCHAR(100) NULL
   PRIMARY KEY (`id`));

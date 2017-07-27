@@ -105,6 +105,7 @@ function getDayInfo(day){
 	var local = document.getElementById("local").value;
 	var assunto = document.getElementById("assunto").value;
 	var condutor = document.getElementById("condutor").value;
+	var poder = document.getElementById("poder").value;
 	
 
 	var xmlhttp;
@@ -128,7 +129,7 @@ function getDayInfo(day){
 		}
 	}
 	
- 	xmlhttp.open("GET", "ajax_tabela.php?data="+data+"&local="+local+"&assunto="+assunto+"&condutor="+condutor, true);
+ 	xmlhttp.open("GET", "ajax_tabela.php?data="+data+"&local="+local+"&assunto="+assunto+"&condutor="+condutor+"&poder="+poder, true);
  	xmlhttp.send();
 	
 }	
@@ -149,14 +150,17 @@ function move() {
     }
 }
 
+var canRequest = false;
 
-
-function Filtros(){
-
+function requestFiltro(){
+	if(!canRequest)
+		return;
+	canRequest = false;
 	var local = document.getElementById("local").value;
 	var assunto = document.getElementById("assunto").value;
 	var condutor = document.getElementById("condutor").value;
 	var data = document.getElementById("data").value;
+	var poder = document.getElementById("poder").value;
 	
 	var xmlhttp;
 	
@@ -177,11 +181,17 @@ function Filtros(){
    			alert('something else other than 200 was returned');
 			}
 		}
-	}
-	
- 	xmlhttp.open("GET", "ajax_tabela.php?local="+local+"&assunto="+assunto+"&condutor="+condutor+"&data="+data, true);
+	}	
+ 	xmlhttp.open("GET", "ajax_tabela.php?local="+local+"&assunto="+assunto+"&poder="+poder+"&condutor="+condutor+"&data="+data, true);
  	xmlhttp.send();
-	
+}
+function Filtros(){
+	var timer = setTimeout(function(){
+		canRequest = true;
+		requestFiltro();
+		clearTimeout(timer);
+	}, 250);
+		
 }	
 
 

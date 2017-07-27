@@ -41,8 +41,8 @@ foreach ($dias as $d){
 		");
 		if (mysqli_num_rows($selectresult) == 0){
 			$queryInsert = "INSERT INTO `tb_eventos_camara`
-				(`assunto`, `data`, `horario_inicio`, `horario_fim`, `local`, `condutor`)
-				VALUES ('{$assunto}', '{$data}', '{$hora_inicio}', '{$hora_fim}', '{$local}', '{$vereador}');";
+				(`assunto`, `data`, `horario_inicio`, `horario_fim`, `local`, `condutor`, 'poder')
+				VALUES ('{$assunto}', '{$data}', '{$hora_inicio}', '{$hora_fim}', '{$local}', '{$vereador}', 'Legislativo');";
 			
 			$conexao->query($queryInsert);
 			echo $data . ' | ';
