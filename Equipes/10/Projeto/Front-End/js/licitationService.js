@@ -3,7 +3,8 @@ var loginService = angular.module('LicitationService', ['ngResource']);
 loginService.constant('CONFIG',
 {
   notAuthenticated: 'auth-not-authenticated',
-  url: 'http://localhost:3000'
+  //url: 'http://localhost:3000'
+  url: 'https://infinite-refuge-17347.herokuapp.com'
 });
 
 
