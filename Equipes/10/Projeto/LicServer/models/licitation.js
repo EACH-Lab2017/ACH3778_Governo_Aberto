@@ -6,7 +6,8 @@ var licitation = new Schema({
     title: String,
     description: String,
     deliveryDate: Date,
-    publishDate: Date
+    publishDate: Date,
+    notificationHandled: { type: Boolean, default: false }
 });
 
 licitation.plugin(passportLocalMongoose);
