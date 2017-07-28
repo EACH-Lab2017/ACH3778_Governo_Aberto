@@ -31,7 +31,7 @@ router.post('/register', function(req, res)
       {
         username : req.body.username,
         email : req.body.email,
-        documentNumber : req.body.documentNumber
+        companyName : req.body.companyName
       }),
       req.body.password,
       function(err, user)

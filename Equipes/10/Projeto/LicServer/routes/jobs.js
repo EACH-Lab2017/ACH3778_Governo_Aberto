@@ -5,13 +5,13 @@ var userModel = require('../models/user');
 var moment = require('moment');
 var nodemailer = require('nodemailer');
 var deasync = require('deasync');
-
+var config = require('../cfg/config');
 
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'govberto@gmail.com',
-    pass: '90govberto91'
+    user: config.user,
+    pass: config.pass
   }
 });
 

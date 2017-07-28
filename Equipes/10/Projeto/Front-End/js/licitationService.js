@@ -85,9 +85,10 @@ loginService.service('Licitation', function($http, $resource, $location, CONFIG)
     resourceUser.get(function(data)
     {
       $scope.username = data.username;
-      $scope.documentNumber = data.documentNumber;
+      $scope.companyName = data.companyName;
       $scope.email = data.email;
       $scope.tags = data.tags;
+
     },
     function(err)
     {

@@ -25,7 +25,8 @@ var user = new Schema({
         type: Boolean,
         default: false
     },
-    tags: [tagSchema]
+    tags: [tagSchema],
+    companyName: String
 });
 
 user.plugin(passportLocalMongoose);
