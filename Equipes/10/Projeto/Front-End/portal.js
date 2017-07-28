@@ -26,19 +26,9 @@ app.config(function($routeProvider){
         controller :'verPainelControl'
     });
 
-    $routeProvider.when('/objetivos',{
-        templateUrl: "Panel/objetivos.html",
-        controller :'objetivosControl'
-    });
-
-    $routeProvider.when('/quemSomos',{
-        templateUrl: "Panel/quemSomos.html",
-        controller :'quemSomosControl'
-    });
-
-    $routeProvider.when('/contatos',{
-        templateUrl: "Panel/contatos.html",
-        controller :'contatosControl'
+    $routeProvider.when('/sobreOSite',{
+        templateUrl: "Panel/sobreOSite.html",
+        controller :'sobreOSiteControl'
     });
 
      $routeProvider.when('/mapaDoSite',{
@@ -162,6 +152,10 @@ app.controller("quemSomosControl",function($scope){
 
 app.controller("contatosControl",function($scope){
     $scope.message= "Contatos"
+});
+
+app.controller("sobreOSiteControl",function($scope){
+    $scope.message= "Sobre o Site"
 });
 
 app.controller("mapaDoSiteControl",function($scope){
