@@ -1,0 +1,17 @@
+<div>
+	<div class = "jumbotron">
+		<table id= "tabelaLicitacao" class="table table-striped">
+			<tr>
+				<th><a href="" ng-click = OrdenarPor('_id')> Id</a></th>
+				<th >Titulo</th>
+				<th style="text-align: center "> Descrição</th>
+				<th><a href="" ng-click = OrdenarPor('deliveryDate')> Data de Entrega</a></th>
+			</tr>
+			<tr ng-repeat="licitacao in listaLicitacao | orderBy:criterioDeOrdenacao:direcaoOrdenacao">
+				<td>{{licitacao._id}}</td>
+				<td>{{licitacao.title}}</td>
+				<td>{{licitacao.description}}</td>
+				<td>{{licitacao.deliveryDate | date:'dd/MM/yyyy'}}</td>
+			</tr>
+		</table>
+</div>

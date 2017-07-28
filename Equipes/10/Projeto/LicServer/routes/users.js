@@ -5,9 +5,22 @@ var userModel = require('../models/user');
 var verify = require('./verify');
 
 /* GET users listing. */
-router.get('/', function(req, res, next)
+router.route('/').get(verify.verifyOrdinaryUser, function (req, res, next)
 {
-  res.send('respond with a resource');
+  var userId = req.decoded._doc._id;
+
+  userModel.findById(userId, function (err, user)
+  {
+    if (err) return next(err);
+    if (user)
+    {
+      res.json(user);
+    }
+    else
+    {
+      res.json([]);
+    }
+  });
 });
 
 router.post('/register', function(req, res)
@@ -18,7 +31,7 @@ router.post('/register', function(req, res)
       {
         username : req.body.username,
         email : req.body.email,
-        documentNumber : req.body.documentNumber
+        companyName : req.body.companyName
       }),
       req.body.password,
       function(err, user)
@@ -72,6 +85,48 @@ router.post('/login', function(req, res, next)
   })(req,res,next);
 });
 
+router.options('/login', function(req, res, next)
+{
+
+  console.log(req.body);
+
+
+  passport.authenticate('local', function(err, user, info)
+  {
+    if (err)
+    {
+      return next(err);
+    }
+    if (!user)
+    {
+      console.log("aqui");
+      return res.status(401).json(
+      {
+        err: info
+      });
+    }
+    req.logIn(user, function(err)
+    {
+      if (err)
+      {
+        return res.status(500).json(
+        {
+          err: 'Could not log in user'
+        });
+      }
+
+      var token = verify.getToken(user);
+      res.status(200).json(
+      {
+        status: 'Login successful!',
+        success: true,
+        token: token,
+        userId: user._id
+      });
+    });
+  })(req,res,next);
+});
+
 router.get('/logout', function(req, res)
 {
   req.logout();
@@ -81,9 +136,10 @@ router.get('/logout', function(req, res)
   });
 });
 
-router.route('/:userId/tags').get(verify.verifyOrdinaryUser, function (req, res, next)
+router.route('/tags').get(verify.verifyOrdinaryUser, function (req, res, next)
 {
-  userModel.findById(req.params.userId, function (err, user)
+  var userId = req.decoded._doc._id;
+  userModel.findById(userId, function (err, user)
   {
     if (err) return next(err);
     if (user)
@@ -97,9 +153,10 @@ router.route('/:userId/tags').get(verify.verifyOrdinaryUser, function (req, res,
   });
 });
 
-router.route('/:userId/tags').post(verify.verifyOrdinaryUser, function (req, res, next)
+router.route('/tags').post(verify.verifyOrdinaryUser, function (req, res, next)
 {
-  userModel.findById(req.params.userId, function (err, user)
+  var userId = req.decoded._doc._id;
+  userModel.findById(userId, function (err, user)
   {
     if (err) return next(err);
 
@@ -142,9 +199,10 @@ router.route('/:userId/tags').post(verify.verifyOrdinaryUser, function (req, res
   });
 });
 
-router.route('/:userId/tags/:tagId').delete(verify.verifyOrdinaryUser, function (req, res, next)
+router.route('/tags/:tagId').delete(verify.verifyOrdinaryUser, function (req, res, next)
 {
-  userModel.findById(req.params.userId, function (err, user)
+  var userId = req.decoded._doc._id;
+  userModel.findById(userId, function (err, user)
   {
     if (err) return next(err);
     if (user)

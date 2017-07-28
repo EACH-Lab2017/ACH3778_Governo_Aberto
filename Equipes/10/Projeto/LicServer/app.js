@@ -1,4 +1,5 @@
 var express = require('express');
+var cors = require('cors');
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -20,6 +21,8 @@ db.once('open', function () {
 
 var index = require('./routes/index');
 var users = require('./routes/users');
+var licitations = require('./routes/licitations');
+var jobs = require('./routes/jobs');
 
 var app = express();
 
@@ -33,6 +36,7 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
+app.use(cors());
 
 // passport config
 var User = require('./models/user');
@@ -45,6 +49,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 app.use('/users', users);
+app.use('/licitations', licitations);
+app.use('/jobs', jobs);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

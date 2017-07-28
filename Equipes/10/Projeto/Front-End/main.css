@@ -1,0 +1,258 @@
+<style>
+
+.container-fluid {
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.navbar-align {
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+	text-align: center;
+}
+
+.navbar-align h1{
+	font-size: 3.9em;
+}
+
+.navbar-align img{
+	position: absolute;
+	top: 30px;
+	left: 60px;
+	height: 80px;
+}
+
+.section-align{
+    margin: auto;
+    width: 100%;
+    max-width: 950px;
+}
+
+.subtitulo-azul{
+	font-size: 1.7em;
+	font-weight: bold;
+	color: #235594;	
+}
+
+.label-azul{
+	color: #235594;
+	font-weight: bold;
+}
+
+.verticalLine {
+	padding-left: 5px;
+	border-left: 2px solid #235594;
+}
+
+.horizontalLine {
+	padding-bottom: 5px;
+	border-bottom: 2px solid #235594;
+}
+
+.loginmodal-container {
+  padding: 0px 30px 10px 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #e1e1e1;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px 1px rgba(0.5, 0.5, 0, 0);
+  overflow: hidden;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  color: #235594;
+  font-weight: bold;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  height: 30px;
+  font-size: 1.1em;
+  font-weight: normal;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container .label-azul input[type=text], input[type=password] {
+	color: #000000;
+	font-weight: none;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 30px;
+  padding: 0 5px;
+}
+
+.loginmodal-submit {
+  text-decoration: none;
+  font-weight: bold;
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #235594;
+  padding: 5px 5px;
+  font-size: 1.1em;
+}
+
+.loginmodal-submit:hover {
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  color: #000;
+}
+
+.loginmodal-container form a {
+  text-align: center;
+  transition: opacity ease 0.5s;
+}
+
+.login-help{
+  font-size: 12px;
+}
+
+#botaoPesquisaSolicitacao{
+	width: 150px;
+	margin-left: 84%;   
+}
+
+#selectBusca{  
+	float:left;
+	width: 190px; 
+}
+
+#campoBusca{
+	margin-left: 37%;   
+	width: 600px;
+}
+
+.jumbotron{
+  	margin-top: 20px;    
+}
+
+.tabgroup{
+  background-color: #fff;
+}
+.tab{
+	font-weight: bold;
+	border: 0px;
+	color: #fff;
+	text-shadow: 0 1px rgba(0,0,0,0.1); 
+	background-color: #235594;
+	padding: 2px 2px;
+	font-size: 14px;
+	display:inline-block;
+	padding: 5px;
+}
+
+.tab:hover{
+	color: #000;
+}
+
+.tabcontents{
+	border: 2px solid #e1e1e1;    
+	padding: 5px 20px 5px 20px;
+}
+
+.objectives-container {
+	padding: 0px 30px 10px 30px;
+	border:1px solid transparent;
+	border-color: #d9d9d9;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px 1px rgba(0.5, 0.5, 0.5, 0.5);
+	overflow: hidden;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+.objectives-container p{
+	text-align: justify;
+	text-indent: 2em;
+	font-size: 1.1em;
+}
+
+.objectives-container h1 {
+	font-size: 1.5em;
+	color: #235594;
+	font-weight: bold;
+}
+
+.objectives-container .negrito{
+	font-weight: bold;
+}
+
+.objectives-container img {
+	max-width: 350px;
+}
+
+.objetive-col-esq{
+	height: 100% !important;
+    position: relative;
+	float: left;
+    top: 5px;
+    left: 15px;
+    width: 47%;
+}
+
+.objetive-col-dir{
+    position: relative;
+	float: right;
+    top: 5px;
+    right: 15px;
+    width: 47%;
+}
+
+.objetive-col-esq .objectives-container{
+	height: 350px;
+}
+
+.objetive-col-dir .objectives-container{
+	height: 350px;
+}
+
+.objectives-container .desenvolvedores .objetive-col-esq img{
+	position: relative;
+	top: 30px;
+}
+
+.objectives-container .informacoes .objetive-col-esq img{
+	height: 50px;
+}
+
+.objetive-linha{
+    position: relative;
+    top: 5px;
+	padding: 0px 15px 0px 15px;
+}
+
+
+
+
+</style>
