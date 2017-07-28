@@ -14,8 +14,6 @@ loginService.service('Licitation', function($http, $resource, $location, CONFIG)
   var isAuthenticated = false;
   var authToken;
 
-
-
   function loadUserCredentials()
   {
     var token = window.localStorage.getItem(LOCAL_TOKEN_KEY);
@@ -37,6 +35,14 @@ loginService.service('Licitation', function($http, $resource, $location, CONFIG)
 
     // Set the token as header for your requests!
     $http.defaults.headers.common.Authorization = authToken;
+  }
+
+  this.isAuthenticated = function ()
+  {
+     if (!isAuthenticated)
+     {
+        $location.path('/entrar');
+     }
   }
 
   this.login = function (user)

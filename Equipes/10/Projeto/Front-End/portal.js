@@ -102,6 +102,8 @@ app.controller("pesquisarControl",function($scope, Licitation)
 
 app.controller("minhaAreaControl",function($scope, Licitation)
 {
+  Licitation.isAuthenticated();
+
   Licitation.findUser($scope);
 
 	$scope.addTag = function()
@@ -116,26 +118,33 @@ app.controller("minhaAreaControl",function($scope, Licitation)
 		var index = $scope.tags.indexOf($scope.remTag);
 		$scope.tags.splice(index, 1);
 	}
+
 });
 
 app.controller("novasLicitControl",function($scope, Licitation)
 {
+  Licitation.isAuthenticated();
+
   Licitation.getUserLicitations($scope);
 
   $scope.OrdenarPor = function(campo){
       $scope.criterioDeOrdenacao = campo;
       $scope.direcaoOrdenacao =! $scope.direcaoOrdenacao;
   }
+
 });
 
 app.controller("historicoControl",function($scope, Licitation)
 {
+  Licitation.isAuthenticated();
+
   Licitation.getUserLicitations($scope);
 
   $scope.OrdenarPor = function(campo){
       $scope.criterioDeOrdenacao = campo;
       $scope.direcaoOrdenacao =! $scope.direcaoOrdenacao;
   }
+  
 });
 
 app.controller("verPainelControl",function($scope){
